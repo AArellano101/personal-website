@@ -88,11 +88,14 @@ code {
 }
 
 .project-display {
-  display: flex;
   background-color: black;
   color: white;
 }
 
+.project-display-row {
+  display: flex;
+
+}
 #Projects {
   background-color: black;
   color: white;

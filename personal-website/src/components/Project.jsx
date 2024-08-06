@@ -5,7 +5,6 @@ import frontarrow from "./static/icons/icons8-forward-button-100.png";
 const Collab = () => {
   return <></>;
 };
-
 const Project = (props) => {
   const pr = props.project;
   const s = pr.skills;

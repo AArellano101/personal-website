@@ -9,11 +9,11 @@ const Experience = (props) => {
       </div>
       <div className="e-location">{ex.location}</div>
       <div className="e-description">
-        {ex.d.map((pt) => (
-          <>
+        {ex.d?.map((pt, index) => (
+          <div key={index}>
             - {pt}
             <br />
-          </>
+          </div>
         ))}
       </div>
     </div>

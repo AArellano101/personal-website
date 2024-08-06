@@ -8,22 +8,35 @@ const s = data.sections;
 const exs = data.experiences;
 const ps = data.projects;
 
+const ROW_SIZE = 3;
+
 function App() {
+  const splitPs = [];
+  for (let i = 0; i < ps.length; i += ROW_SIZE) {
+    const split = ps.slice(i, i + ROW_SIZE);
+    splitPs.push(split);
+  }
   return (
     <div className="App">
       <Header />
       <Section name="About" d={s.about} />
       <hr></hr>
-      <Section name="Experience" d={s.experience} />
-      {exs.map((ex) => (
-        <Experience key={ex} e={ex} />
+      <Section name="Experience + Education" d={s.experience} />
+      {exs.map((ex, index) => (
+        <Experience key={index} e={ex} />
       ))}
       <Section name="Projects" d={s.projects} />
+
       <div className="project-display">
-        {ps.map((p) => (
-          <Project key={p} project={p} />
+        {splitPs?.map((pr, index) => (
+          <div key={index} className="project-display-row">
+            <Project key={pr[0]} project={pr[0]} />
+            <Project key={pr[1]} project={pr[1]} />
+            <Project key={pr[2]} project={pr[2]} />
+          </div>
         ))}
       </div>
+
       <Section name="Contact Me" d={s.contact} />
     </div>
   );
