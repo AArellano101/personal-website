@@ -1,0 +1,172 @@
+@import url(https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap);
+
+body {
+  margin: 0;
+  font-family: "Josefin Sans", "sans-serif";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(36,0,70,1) 4%, rgba(157,78,221,1) 100%);
+  color: white;
+  font-size: 3vw;
+  font-weight: 500;
+  padding: 8vw;
+}
+
+.header-maintext {
+  font-size: 5vw;
+  margin: 1vw;
+}
+
+.links a {
+  font-size: 2.3vw;
+  color: white;
+  margin: 10px;
+  text-decoration: none; 
+  transition-property: color, font-size, margin;
+  transition-duration: 0.1s;
+  transition-delay: 0.1s;
+}
+
+.links a:hover {
+  color: rgb(145, 145, 145);
+  font-size: 3vw;
+  margin: 30px;
+}
+
+.section, .experience, .project {
+  text-align: left;
+  margin: 50px;
+}
+
+.section-title {
+  font-weight: 600;
+  padding: 10px;
+  font-size: 40px;
+}
+
+.e-title {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.experience {
+  border-radius: 10px;
+  border: 3px solid black;
+  padding: 15px;
+  transition-property: color, background-color;
+  transition-duration: 0.1s;
+  transition-delay: 0.1s;
+}
+
+.experience:hover {
+  background-color: black;
+  color: white;
+}
+
+.e-location {
+   font-style: italic;
+}
+
+.e-description {
+  margin: 10px;
+  font-size: 14px;
+}
+
+.e-date {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+  margin: 10px;
+}
+
+.project-display {
+  background-color: black;
+  color: white;
+}
+
+.project-display-row {
+  display: flex;
+
+}
+#Projects {
+  background-color: black;
+  color: white;
+  width: 100vw;
+  margin: 0;
+  padding: 20px 50px;
+}
+
+.project {
+  border-radius: 10px;
+  padding: 15px;
+  width: 24vw;
+  background-color: white;
+  transition-property: width;
+  transition-duration: 0.5s;
+}
+
+.project:hover {
+  width: 50vw;
+}
+
+
+.project * {
+  text-decoration: none; 
+  color: black;
+}
+
+.p-title {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.p-description {
+  font-size: 1vw;
+  margin: 10px;
+}
+
+.p-img {
+  width: 90%;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skill {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 3px 5px;
+  font-size: 12px;
+}
+
+.skill-display {
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.arrow {
+  width: 33px;
+  cursor: pointer;
+}
+
+.arrows {
+  text-align: center;
+}
+
+.image-count {
+  font-size: 13px;
+  color: rgb(145, 145, 145);
+}

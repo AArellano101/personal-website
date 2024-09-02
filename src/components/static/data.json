@@ -1,0 +1,123 @@
+{
+  "sections": {
+    "about": "Hi! My names Aaron and I'm a Calgary based software developer / engineering student / guitar teacher. From an early age, my passion for engineering new things has been a driving force. Immersed in the world of coding, I crafted my skills and discovered innovative solutions. I'm currently studying Mechanical Engineering at the University of Calgary",
+    "projects": "Here's some projects I've worked on, ranging from AI to Web Development.",
+    "experience": "Here's some of my past experiences.",
+    "contact": "email: aaronjobarellano@gmail.com | phone: +1 587-429-9798"
+  },
+  "experiences": [
+    {
+      "title": "Guitar Teacher",
+      "location": "Musicworks Canada",
+      "d": [
+        "Taught 20+ students how to play guitar, musical concepts, and how to enhance their ability through specific techniques and improvisation",
+        "Provided feedback to students through patient and collaborative discussion"
+      ],
+      "term": "Jul 2023 - Apr 2024"
+    },
+    {
+      "title": "Research Fellow, Project Manager",
+      "location": "TKS (The Knowledge Society)",
+      "d": [
+        "Researched and built 5+ projects related to AI, quantum computing and brain computer interfaces.",
+        "Participated in winning hackathons (3x) and consultation challenges (2x) with Google and Microsoft, acting as project manager to organize group work"
+      ],
+      "term": "Sep 2023 - Jun 2024"
+    },
+    {
+      "title": "Software Dev",
+      "location": "Alberta Students in Technology",
+      "d": [
+        "Worked on a collective software project using frontend and backend development",
+        "Implemented agile methodology to streamline development cycles."
+      ]
+    },
+    {
+      "title": "High School Diploma",
+      "location": "Dr. E.P. Scarlett High School",
+      "d": [
+        "Honour Roll with Distinction",
+        "AP Student (x3 5's)",
+        "Senior Football Team, Captain of Senior Rugby Team",
+        "Student Of The Year (x2)"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "PrecisionFit",
+      "link": "https://medium.com/@aaronjobarellano/coding-a-personal-ai-trainer-8e4a752dad57",
+      "img": [
+        "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*EJ_5KLwvhbdMMuxA",
+        "https://miro.medium.com/v2/resize:fit:1374/format:webp/0*q_HRNIbOfxygb2iT",
+        "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*YHrqc1GTwikh4gj9.jpeg"
+      ],
+      "d": "An AI-driven personal trainer application using computer vision and neural networks.",
+      "exd": " Computer webcam analyses workout data, outputting accuracy metrics to help improve exercise form.",
+      "skills": ["A.I.", "Computer Vision", "Machine Learning"],
+      "exskills": ["Neural Networks", "Firebase"]
+    },
+    {
+      "title": "Should boxing and MMA fans look to AI as judges?",
+      "link": "https://medium.com/@aaronjobarellano/should-boxing-and-mma-fans-look-to-ai-as-judges-b0c3e909fb57",
+      "img": [
+        "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*TItLsbGIAv_65Yjc",
+        "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*L_Ui0fc6TuRWYDSS",
+        "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*Kfs7EqpI1f-EplkA"
+      ],
+      "d": "An article describing the viability of implementing computer vision and artificial intelligence technology as combat sport judges.",
+      "exd": "more",
+      "skills": ["A.I.", "Writing"],
+      "exskills": ["Computer Vision", "Neural Networks"]
+    },
+    {
+      "title": "NestUp",
+      "link": "https://github.com/oskccy/nestup",
+      "img": [
+        "https://i.postimg.cc/hjVW3Xgw/Screenshot-2024-08-04-at-1-05-41-PM.png",
+        "https://i.postimg.cc/s2kCcYF7/Screenshot-2024-08-04-at-1-07-26-PM.png"
+      ],
+      "d": "Nestup is the newest sensation in the world of social media, offering a fresh, feature-rich platform for sharing life's special moments.",
+      "exd": "Drawing inspiration from the visual appeal of Instagram, Nestup takes your social experience to a new level, offering a space where friends and communities can come together to engage and connect.",
+      "skills": ["Swift", "Mobile Development"],
+      "exskills": ["Group Collaboration", "Firebase"]
+    },
+    {
+      "title": "Inspire",
+      "link": "https://github.com/AArellano101/inspire",
+      "img": [
+        "https://media.licdn.com/dms/image/D562DAQEHw8GNetrKjA/profile-treasury-image-shrink_800_800/0/1711991923705?e=1723406400&v=beta&t=fUD6yVYwGvcWZ9fD4B5a7T1SrjcXpyaMnzgfLtyjjcI",
+        "https://media.licdn.com/dms/image/D562DAQGdTlhcxnviLA/profile-treasury-image-shrink_800_800/0/1711991913220?e=1723406400&v=beta&t=6sUSZJFlee1GBEaupcEvCtaeUglHE7N-4LqOAD76wUw",
+        "https://media.licdn.com/dms/image/D562DAQFHluEXaKSSbQ/profile-treasury-image-shrink_800_800/0/1711991894660?e=1723406400&v=beta&t=aSjHDWG9q_TQkHT-J8fyZ1rdd8QRIOS80e1N4vFqTWM"
+      ],
+      "d": "Inspire is a social media platform designed to uplift and motivate users through positive and inspirational content.",
+      "exd": "With a focus on spreading encouragement and fostering personal growth, Inspire aims to create a supportive online community where users can connect and learn about inspiring stories, quotes, movies, albums, and much, much more.",
+      "skills": ["Django", "Web Development"],
+      "exskills": ["Firebase", "jQuery"]
+    },
+    {
+      "title": "Xenovation Labs",
+      "link": "https://medium.com/@aaronjobarellano/harnessing-xenobots-to-combat-microplastics-a1a1b20a5ec2",
+      "img": [
+        "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*1pkzrUJHBDvhC1hm.jpg",
+        "https://miro.medium.com/v2/resize:fit:1200/format:webp/0*gmF1X_Bfh_fkmCi1.gif"
+      ],
+      "d": "An article proposing a solution to microplastics disrupting the marine environment, through Xenovation Labs, which utilizes micro Xenobots to autonomously collect microplastics for recovery. ",
+      "exd": "The article proposes a step by step process towawrds recovering microplastics, including the usage of apps, USV's. The science behind xenobots and microplastics are explored.",
+      "skills": ["A.I.", "Group Collaboration"],
+      "exskills": ["Biological AI"]
+    },
+    {
+      "title": "Connect Four AI",
+      "link": "https://github.com/AArellano101/connect-four",
+      "img": [
+        "https://i.postimg.cc/rmQ500V4/Screenshot-2024-08-04-at-2-05-40-PM.png",
+        "https://i.postimg.cc/g0yVpt1N/Screenshot-2024-08-04-at-2-08-20-PM.png"
+      ],
+      "d": "An autonomous, unbeatable connect four AI utilizing the minimax algorithm.",
+      "exd": "This repo also includes an arduino option, allowing for the AI to be implemented on a real-life circuit.",
+      "skills": ["A.I.", "Pygame", "Arduino"],
+      "exskills": ["C"]
+    }
+  ]
+}
