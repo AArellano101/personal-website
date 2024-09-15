@@ -5,13 +5,14 @@ import frontarrow from "./static/icons/icons8-forward-button-100.png";
 const Collab = () => {
   return <></>;
 };
+
 const Project = (props) => {
   const pr = props.project;
   const s = pr.skills;
   const es = pr.exskills;
   const imgl = pr.img.length;
 
-  const [hover, setHover] = useState(true);
+  const [hover, setHover] = useState(false);
   const [imageSlide, setImageSlide] = useState(0);
 
   function handleIncrement(e) {
@@ -49,7 +50,7 @@ const Project = (props) => {
           {hover ? pr.exd : null}
         </div>
       </a>
-      {hover && imgl != 0 ? (
+      {imgl != 0 ? (
         <div className="arrows">
           <input
             type="image"
@@ -71,9 +72,11 @@ const Project = (props) => {
         </div>
       ) : null}
       <a href={pr.link}>
-        {imgl != 0 ? (
-          <img className="p-img" src={pr.img[imageSlide]} alt="specific"></img>
-        ) : null}
+        <img
+          className="p-img"
+          src={pr.img[imageSlide]}
+          alt="image not available"
+        ></img>
       </a>
     </div>
   );

@@ -20,11 +20,6 @@ function App() {
     <div className="App">
       <Header />
       <Section name="About" d={s.about} />
-      <hr></hr>
-      <Section name="Experience + Education" d={s.experience} />
-      {exs.map((ex, index) => (
-        <Experience key={index} e={ex} />
-      ))}
       <Section name="Projects" d={s.projects} />
 
       <div className="project-display">
@@ -37,7 +32,12 @@ function App() {
         ))}
       </div>
 
-      <Section name="Contact Me" d={s.contact} />
+      <Section name="Experience + Education" d={s.experience} />
+      {exs.map((ex, index) => (
+        <Experience key={index} e={ex} />
+      ))}
+
+      <Section name="Contact" d={s.contact} />
     </div>
   );
 }

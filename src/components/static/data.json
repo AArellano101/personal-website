@@ -1,6 +1,6 @@
 {
   "sections": {
-    "about": "Hi! My names Aaron and I'm a Calgary based software developer / engineering student / guitar teacher. From an early age, my passion for engineering new things has been a driving force. Immersed in the world of coding, I crafted my skills and discovered innovative solutions. I'm currently studying Mechanical Engineering at the University of Calgary",
+    "about": "Hi! My names Aaron and I'm a Calgary based software developer / engineering student. From an early age, my passion for engineering new things has been a driving force. Immersed in the world of coding, I crafted my skills and discovered innovative solutions. I am currently studying my Bachelor's Degree of Science in Engineering at the University of Calgary.",
     "projects": "Here's some projects I've worked on, ranging from AI to Web Development.",
     "experience": "Here's some of my past experiences.",
     "contact": "email: aaronjobarellano@gmail.com | phone: +1 587-429-9798"
@@ -25,12 +25,13 @@
       "term": "Sep 2023 - Jun 2024"
     },
     {
-      "title": "Software Dev",
+      "title": "Software Developer",
       "location": "Alberta Students in Technology",
       "d": [
-        "Worked on a collective software project using frontend and backend development",
+        "Worked on a collective software project - a voting app, using frontend and backend development",
         "Implemented agile methodology to streamline development cycles."
-      ]
+      ],
+      "term": "Jun 2024 - Sep 2024"
     },
     {
       "title": "High School Diploma",
@@ -66,8 +67,8 @@
         "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*Kfs7EqpI1f-EplkA"
       ],
       "d": "An article describing the viability of implementing computer vision and artificial intelligence technology as combat sport judges.",
-      "exd": "more",
-      "skills": ["A.I.", "Writing"],
+      "exd": " Explores a tech startup's computer vision technology, and details how to implement an unbiased AI.",
+      "skills": ["A.I. Research", "Writing"],
       "exskills": ["Computer Vision", "Neural Networks"]
     },
     {
@@ -77,8 +78,8 @@
         "https://i.postimg.cc/hjVW3Xgw/Screenshot-2024-08-04-at-1-05-41-PM.png",
         "https://i.postimg.cc/s2kCcYF7/Screenshot-2024-08-04-at-1-07-26-PM.png"
       ],
-      "d": "Nestup is the newest sensation in the world of social media, offering a fresh, feature-rich platform for sharing life's special moments.",
-      "exd": "Drawing inspiration from the visual appeal of Instagram, Nestup takes your social experience to a new level, offering a space where friends and communities can come together to engage and connect.",
+      "d": "Nestup is the newest sensation in the world of mobile social media, offering a fresh, feature-rich platform for sharing life's special moments.",
+      "exd": " Nestup offers a space where friends and communities can engage and connect.",
       "skills": ["Swift", "Mobile Development"],
       "exskills": ["Group Collaboration", "Firebase"]
     },
@@ -86,12 +87,12 @@
       "title": "Inspire",
       "link": "https://github.com/AArellano101/inspire",
       "img": [
-        "https://media.licdn.com/dms/image/D562DAQEHw8GNetrKjA/profile-treasury-image-shrink_800_800/0/1711991923705?e=1723406400&v=beta&t=fUD6yVYwGvcWZ9fD4B5a7T1SrjcXpyaMnzgfLtyjjcI",
-        "https://media.licdn.com/dms/image/D562DAQGdTlhcxnviLA/profile-treasury-image-shrink_800_800/0/1711991913220?e=1723406400&v=beta&t=6sUSZJFlee1GBEaupcEvCtaeUglHE7N-4LqOAD76wUw",
-        "https://media.licdn.com/dms/image/D562DAQFHluEXaKSSbQ/profile-treasury-image-shrink_800_800/0/1711991894660?e=1723406400&v=beta&t=aSjHDWG9q_TQkHT-J8fyZ1rdd8QRIOS80e1N4vFqTWM"
+        "https://i.postimg.cc/BQPjh46w/Screenshot-2024-09-02-at-3-12-49-PM.png",
+        "https://i.postimg.cc/3xMdVV0r/Screenshot-2024-09-02-at-3-12-55-PM.png",
+        "https://i.postimg.cc/VvpdYH7R/Screenshot-2024-09-02-at-3-13-00-PM.png"
       ],
       "d": "Inspire is a social media platform designed to uplift and motivate users through positive and inspirational content.",
-      "exd": "With a focus on spreading encouragement and fostering personal growth, Inspire aims to create a supportive online community where users can connect and learn about inspiring stories, quotes, movies, albums, and much, much more.",
+      "exd": " Inspire aims to create a supportive online community where users can connect + learn about inspiring stories, quotes, movies, albums, and much, much more.",
       "skills": ["Django", "Web Development"],
       "exskills": ["Firebase", "jQuery"]
     },
@@ -102,9 +103,9 @@
         "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*1pkzrUJHBDvhC1hm.jpg",
         "https://miro.medium.com/v2/resize:fit:1200/format:webp/0*gmF1X_Bfh_fkmCi1.gif"
       ],
-      "d": "An article proposing a solution to microplastics disrupting the marine environment, through Xenovation Labs, which utilizes micro Xenobots to autonomously collect microplastics for recovery. ",
-      "exd": "The article proposes a step by step process towawrds recovering microplastics, including the usage of apps, USV's. The science behind xenobots and microplastics are explored.",
-      "skills": ["A.I.", "Group Collaboration"],
+      "d": "An article proposing a solution to microplastics disrupting the marine environment, utilizing biological robots, Xenobots, to autonomously collect microplastics. ",
+      "exd": " The article proposes a step by step process towards recovering microplastics, including the usage of apps, USV's.",
+      "skills": ["A.I. Research", "Group Collaboration"],
       "exskills": ["Biological AI"]
     },
     {
@@ -115,7 +116,7 @@
         "https://i.postimg.cc/g0yVpt1N/Screenshot-2024-08-04-at-2-08-20-PM.png"
       ],
       "d": "An autonomous, unbeatable connect four AI utilizing the minimax algorithm.",
-      "exd": "This repo also includes an arduino option, allowing for the AI to be implemented on a real-life circuit.",
+      "exd": " This repo also includes an arduino option, allowing for the AI to be implemented on a real-life circuit.",
       "skills": ["A.I.", "Pygame", "Arduino"],
       "exskills": ["C"]
     }

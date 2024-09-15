@@ -96,7 +96,7 @@ code {
   display: flex;
 
 }
-#Projects {
+#Projects, #Contact {
   background-color: black;
   color: white;
   width: 100vw;
@@ -110,7 +110,7 @@ code {
   width: 24vw;
   background-color: white;
   transition-property: width;
-  transition-duration: 0.5s;
+  transition-duration: 0.8s;
 }
 
 .project:hover {
@@ -158,7 +158,7 @@ code {
 }
 
 .arrow {
-  width: 33px;
+  width: 23px;
   cursor: pointer;
 }
 
@@ -169,4 +169,8 @@ code {
 .image-count {
   font-size: 13px;
   color: rgb(145, 145, 145);
+}
+
+.section-description, .e-description {
+  line-height: 1.5;
 }
