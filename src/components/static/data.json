@@ -10,8 +10,8 @@
       "title": "Guitar Teacher",
       "location": "Musicworks Canada",
       "d": [
-        "Taught 20+ students how to play guitar, musical concepts, and how to enhance their ability through specific techniques and improvisation",
-        "Provided feedback to students through patient and collaborative discussion"
+        "Provided personalized 1-on-1 guitar instruction to 30+ students of various skill levels, resulting in a 30% increase in student retention and satisfaction",
+        "Mentored students in improvisation skills, resulting in an increase of students' confidence and creativity in playing the guitar"
       ],
       "term": "Jul 2023 - Apr 2024"
     },
@@ -19,28 +19,37 @@
       "title": "Research Fellow, Project Manager",
       "location": "TKS (The Knowledge Society)",
       "d": [
-        "Researched and built 5+ projects related to AI, quantum computing and brain computer interfaces.",
-        "Participated in winning hackathons (3x) and consultation challenges (2x) with Google and Microsoft, acting as project manager to organize group work"
+        "Researched cutting-edge technologies in AI, quantum computing, and biological robotics to develop innovative projects, resulting in a 20% increase in project completion rate compared to other accelerator participants.",
+        "Served as project manager of team of 5+ collaborators, winning 3+ hackathons and consultation challenges with industry leaders at Google and Microsoft contributing an increase in overall team success rates."
       ],
       "term": "Sep 2023 - Jun 2024"
     },
     {
-      "title": "Software Developer",
+      "title": "Software Developer, Backend Development Lead",
       "location": "Alberta Students in Technology",
       "d": [
-        "Worked on a collective software project - a voting app, using frontend and backend development",
-        "Implemented agile methodology to streamline development cycles."
+        "Collaborated with a team of other enthusiastic students to develop and launch a full-stack real-time voting application using PostgreSQL, React, and Node.js",
+        "Led backend development team, collaborating with cross-functional teams to integrate new API features."
       ],
-      "term": "Jun 2024 - Sep 2024"
+      "term": "May 2024 - Sep 2024"
+    },
+    {
+      "title": "Captain, MVP",
+      "location": "Senior High School Rugby Team",
+      "d": [
+        "Led the senior rugby team to multiple 20+ regular season, playoff, and tournament wins, demonstrating strong leadership qualities both on and off the field.",
+        "Fostered a culture of teamwork and camaraderie among 60+ team members, serving as a role model exemplifying dedication, discipline, and resilience in challenging situations during matches and training sessions."
+      ],
+      "term": "Feb 2024 - Jun 2024"
     },
     {
       "title": "High School Diploma",
       "location": "Dr. E.P. Scarlett High School",
       "d": [
-        "Honour Roll with Distinction",
+        "Honour Roll with Distinction x6",
         "AP Student (x3 5's)",
         "Senior Football Team, Captain of Senior Rugby Team",
-        "Student Of The Year (x2)"
+        "Student Of The Year 2024, 2023 (98% average grade)"
       ]
     }
   ],
