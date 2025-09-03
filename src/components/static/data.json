@@ -7,6 +7,15 @@
   },
   "experiences": [
     {
+      "title": "Resarch Intern",
+      "location": "Laboratory of Interfacial Science and Advanced Materials",
+      "d": [
+        "Gained expertise in electrospinning and 3D bioprinting for advanced material development, including optimization of process parameters.",
+        "Critically reviewed and contributed to 2 peer-reviewed research articles and participated in weekly team meetings to strengthen collaboration and presentation skills."
+      ],
+      "term": "Apr 2025 - Aug 2025"
+    },
+    {
       "title": "Guitar Teacher",
       "location": "Musicworks Canada",
       "d": [
@@ -16,7 +25,7 @@
       "term": "Jul 2023 - Apr 2024"
     },
     {
-      "title": "Research Fellow, Project Manager",
+      "title": "Research Fellow",
       "location": "TKS (The Knowledge Society)",
       "d": [
         "Researched cutting-edge technologies in AI, quantum computing, and biological robotics to develop innovative projects, resulting in a 20% increase in project completion rate compared to other accelerator participants.",
@@ -25,7 +34,7 @@
       "term": "Sep 2023 - Jun 2024"
     },
     {
-      "title": "Software Developer, Backend Development Lead",
+      "title": "Software Developer",
       "location": "Alberta Students in Technology",
       "d": [
         "Collaborated with a team of other enthusiastic students to develop and launch a full-stack real-time voting application using PostgreSQL, React, and Node.js",
@@ -118,16 +127,16 @@
       "exskills": ["Biological AI"]
     },
     {
-      "title": "Connect Four AI",
-      "link": "https://github.com/AArellano101/connect-four",
+      "title": "CashCorn",
+      "link": "https://devpost.com/software/cashcorn",
       "img": [
-        "https://i.postimg.cc/rmQ500V4/Screenshot-2024-08-04-at-2-05-40-PM.png",
-        "https://i.postimg.cc/g0yVpt1N/Screenshot-2024-08-04-at-2-08-20-PM.png"
+        "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/275/307/datas/gallery.jpg",
+        "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/275/325/datas/gallery.jpg"
       ],
-      "d": "An autonomous, unbeatable connect four AI utilizing the minimax algorithm.",
-      "exd": " This repo also includes an arduino option, allowing for the AI to be implemented on a real-life circuit.",
-      "skills": ["A.I.", "Pygame", "Arduino"],
-      "exskills": ["C"]
+      "d": "A Chrome extension designed to curb impulsive online spending by prompting users to reflect before purchases.",
+      "exd": "It detects when you're making an impulsive buy, and stops you in your tracks by forcing you to play and reflect on if you truly need the product and showing you the common risks associated with it.",
+      "skills": ["A.I.", "Javascript"],
+      "exskills": ["Firebase"]
     }
   ]
 }
