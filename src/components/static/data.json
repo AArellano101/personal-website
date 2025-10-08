@@ -7,6 +7,15 @@
   },
   "experiences": [
     {
+      "title": "Simulations & Modelling Team Member",
+      "location": "Student Organization for Aerospace Research @ UofC",
+      "d": [
+        "Utilized computational fluid dynamics (CFD) and flight simulation tools to model rocket trajectories, aerodynamic profiles, and propulsion dynamics, enhancing launch prediction accuracy.",
+        "Collaborated with a cross-disciplinary team of mechanical, electrical, and propulsion engineers to integrate simulation data into the design pipeline."
+      ],
+      "term": "Sep 2025 - Present"
+    },
+    {
       "title": "Project Manager of Instruction",
       "location": "STEAMistic",
       "d": [
@@ -14,7 +23,7 @@
         "Managed curriculum development for hands-on science, technology, engineering, art, and mathematics (STEAM) activities to foster curiosity, innovation, and problem-solving skills.",
         "Coordinated a cross-functional team of instructors and volunteers to deliver engaging workshops and educational materials to over 200+ students."
       ],
-      "term": "Apr 2025 - Aug 2025"
+      "term": "Apr 2025 - Present"
     },
     {
       "title": "Resarch Intern",
