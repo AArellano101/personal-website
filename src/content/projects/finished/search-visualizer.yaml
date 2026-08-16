@@ -1,0 +1,61 @@
+id: "search-visualizer"
+title: "Maze Search Visualizer"
+status: "Algorithm visualization"
+featured: false
+collapsible: true
+
+summary_markdown: >-
+  A maze-design and visualization tool for comparing how search
+  algorithms explore the same problem.
+
+description_markdown: |-
+  This project visualizes the path taken by different search algorithms
+  through a maze. These algorithms include breadth-first search, depth-first search,
+  and A* search, among others.
+
+  Watching the algorithms unfold makes the differences between them easier to
+  understand than reading pseudocode and theory alone.
+
+  The project turns an abstract process into something that can be inspected.
+
+personal_explanation_markdown: >-
+  I built this because animation makes an algorithm's priorities visible.
+
+contributions:
+  - "Built the interactive maze editor."
+  - "Implemented multiple search algorithms."
+  - "Animated visited nodes and final paths."
+  - "Designed the interface for conceptual comparison."
+
+technologies:
+  - "Python"
+  - "Django"
+  - "JavaScript"
+  - "HTML"
+  - "CSS"
+  - "SQLite"
+
+keywords:
+  - "Search algorithm visualization"
+  - "Breadth-first search"
+  - "Depth-first search"
+  - "Greedy best-first search"
+  - "Uniform-cost search"
+  - "A* search"
+  - "Pathfinding"
+  - "Visited-node visualization"
+  - "Algorithm education"
+
+  
+links:
+  - label: "View source"
+    href: "https://github.com/AArellano101/search-project"
+    type: "source"
+
+images:
+  cover:
+    src: "/images/projects/maze.png"
+    alt: "Maze interface visualizing a search algorithm."
+    caption: "Maze interface visualizing a search algorithm."
+
+  gallery: []

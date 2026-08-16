@@ -1,0 +1,51 @@
+id: "ml-research"
+number: "01"
+behavior: "popup"
+
+title: >-
+  Researching Machine Learning
+external_link:
+  label: "Dr. Samira Kahou"
+  href: "https://scholar.google.com/citations?user=F99FuaAAAAAJ"
+  aria_label: "View Dr. Samira Kahou's Google Scholar profile"
+
+content:
+  lead_markdown: >-
+    In Dr. Samira Kahou's Machine Intelligence and Reasoning Lab, I am studying how groups of
+    language-model agents **reason, plan, negotiate, and, on occasion, fail**. I'm interested in how behaviours such as deception, sycophancy, information leakage, or coordination failures become visible
+    in their messages. Exploring how an LLM's internal mechanisms can be used to explain **why these behaviours occur** also fascinates me.
+
+  body_markdown: |-
+    My main project is twofold. First, I'm building a configurable
+    simulator where LLM-based agents interact while maintaining private
+    **beliefs, objectives, plans, memory, and roles**.
+
+    The second contribution is explainability. I'm interested in looking inside
+    the models instead of judging them only by their final responses, using
+    **linear probes, sparse autoencoders, Jacobian lenses, and other white-box 
+    approaches**.
+
+    Side projects include writing an online textbook and developing a documentation schema for
+    multi-agent systems.
+
+    I can't reveal too much because it's all unpublished work (for now)!
+
+  keywords:
+    - "LLMs"
+    - "Agents"
+    - "Multi-agent systems"
+    - "Machine learning"
+    - "Explainability"
+    - "PyTorch"
+
+  images:
+    - src: "/images/current/pipeline-mals.png"
+      alt: >-
+        High-level overview of how Aaron's main project works.
+      caption: >-
+        A high-level overview of how my main project works.
+
+    - src: "/images/current/comp-mals.png"
+      alt: >-
+        Comparison of Aaron's main project with related work.
+      caption: A comparison of my main project and other contemporary works.

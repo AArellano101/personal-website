@@ -1,0 +1,14 @@
+id: "right-now"
+figure_label: "Fig. 01"
+heading: "What I'm doing right now"
+
+intro_markdown: >-
+  A snapshot of the questions, communities, and projects taking most of my time.
+
+entry_order:
+  - "ml-research"
+  - "electrical-engineering"
+  - "building-projects"
+  - "soar"
+  - "educating"
+  - "staying-curious"

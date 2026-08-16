@@ -1,43 +1,100 @@
+import { useEffect, useState } from "react";
 import "./App.css";
-import Header from "./components/Header.jsx";
-import Section from "./components/Section.jsx";
-import Experience from "./components/Experience.jsx";
-import Project from "./components/Project.jsx";
-import data from "./components/static/data.json";
-const s = data.sections;
-const exs = data.experiences;
-const ps = data.projects;
+import { loadSiteContent } from "./content";
+import NotebookNavigation from "./components/notebook/NotebookNavigation";
+import HeroSection from "./components/notebook/HeroSection";
+import CurrentWorkSection from "./components/notebook/CurrentWorkSection";
+import InterestSection from "./components/notebook/InterestSection";
+import ProjectSection from "./components/notebook/ProjectSection";
+import MiscSection from "./components/notebook/MiscSection";
 
-const ROW_SIZE = 3;
+function setDocumentMetadata(site) {
+  if (!site?.metadata) return;
+
+  document.title = site.metadata.title;
+  const description = document.querySelector('meta[name="description"]');
+  if (description) description.setAttribute("content", site.metadata.description);
+}
 
 function App() {
-  const splitPs = [];
-  for (let i = 0; i < ps.length; i += ROW_SIZE) {
-    const split = ps.slice(i, i + ROW_SIZE);
-    splitPs.push(split);
-  }
-  return (
-    <div className="App">
-      <Header />
-      <Section name="About" d={s.about} />
-      <Section name="Projects" d={s.projects} />
+  const [content, setContent] = useState(null);
+  const [failed, setFailed] = useState(false);
+  const [statusUi, setStatusUi] = useState(null);
 
-      <div className="project-display">
-        {splitPs?.map((pr, index) => (
-          <div key={index} className="project-display-row">
-            <Project key={pr[0]} project={pr[0]} />
-            <Project key={pr[1]} project={pr[1]} />
-            <Project key={pr[2]} project={pr[2]} />
-          </div>
-        ))}
+  useEffect(() => {
+    let active = true;
+
+    loadSiteContent({
+      onDocument: (key, document) => {
+        if (active && key === "ui") setStatusUi(document);
+      },
+    })
+      .then((loadedContent) => {
+        if (!active) return;
+        setDocumentMetadata(loadedContent.site);
+        setContent(loadedContent);
+      })
+      .catch((error) => {
+        console.error(error);
+        if (active) setFailed(true);
+      });
+
+    return () => {
+      active = false;
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!content || !window.location.hash) return;
+    const hashId = window.location.hash.slice(1).split("?")[0];
+    if (hashId.startsWith("interest-")) return;
+    window.requestAnimationFrame(() => {
+      window.requestAnimationFrame(() => {
+        document.getElementById(hashId)?.scrollIntoView();
+      });
+    });
+  }, [content]);
+
+  if (!content) {
+    return (
+      <div
+        className={`notebook-loader${failed ? " notebook-loader--failed" : ""}`}
+        role={statusUi ? (failed ? "alert" : "status") : undefined}
+        aria-live={statusUi ? (failed ? "assertive" : "polite") : undefined}
+        aria-hidden={statusUi ? undefined : true}
+      >
+        {statusUi ? <p>{failed ? statusUi.content_error : statusUi.loading}</p> : null}
+        <div aria-hidden="true">
+        <span />
+        <span />
+        <span />
+        </div>
       </div>
+    );
+  }
 
-      <Section name="Experience + Education" d={s.experience} />
-      {exs.map((ex, index) => (
-        <Experience key={index} e={ex} />
-      ))}
+  const { navigation, hero, ui, rightNow, interests, projects, misc } = content;
 
-      <Section name="Contact" d={s.contact} />
+  return (
+    <div className="notebook-app">
+      <a className="skip-link" href="#main-content">
+        {ui.skip_to_content}
+      </a>
+      <NotebookNavigation navigation={navigation} />
+      <main id="main-content" tabIndex="-1">
+        <HeroSection content={hero} />
+        <div className="notebook-thread" aria-hidden="true">
+          <span className="notebook-thread__branch notebook-thread__branch--one" />
+          <span className="notebook-thread__branch notebook-thread__branch--two" />
+        </div>
+        <div className="notebook-section overview-section">
+          <CurrentWorkSection content={rightNow} ui={ui} />
+          <InterestSection content={interests} ui={ui} />
+        </div>
+        <ProjectSection content={projects} ui={ui} />
+        <MiscSection content={misc} projects={projects.all} ui={ui} />
+      </main>
+      <div className="paper-edge" aria-hidden="true" />
     </div>
   );
 }

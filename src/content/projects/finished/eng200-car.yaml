@@ -1,0 +1,75 @@
+id: "eng200-car"
+title: "Autonomous Delivery Vehicle"
+status: "University project"
+featured: false
+collapsible: false
+
+summary_markdown: >-
+  A small autonomous vehicle using sensors, embedded control,
+  mechanical design, and repeated testing.
+
+description_markdown: |-
+  For an engineering design course, my team built an autonomous delivery
+  vehicle using a Raspberry Pi, sensors, electronics, and custom mechanical
+  components.
+
+  The project was an early lesson in **systems integration**, **firmware**, and **electronics**.
+  As a matter of fact, this project got me to switch to electrical engineering (I was originally
+  going into mechanical engineering)!
+  
+  This project involved the following:
+
+  1. **Autonomous Navigation**: Used two **line-detection sensors** for path following and
+    reorientation using obstacle markers, an **HC-SR04 ultrasonic sensor** for obstacle detection
+    and avoidance, and **infrared sensing** to identify course zones.
+
+  2. **Payload Detection**: Used a **magnetic sensor** to determine when the vehicle had reached
+    the payload and aligned with it before initiating the loading sequence.
+
+  3. **Payload Collection**: Used a **3D-printed loading arm** to lower onto the payload, lift the payload,
+    and place it down at the destination.
+
+  4. **Embedded Electronics & Control**: Used a **Raspberry Pi** to coordinate sensor input,
+    navigation within the course, obstacle avoidance, motor control, and arm control.
+
+  5. **Mechanical Design & Integration**: Integrated the motors, wheels, sensors, electronics, and arm
+    into a 3D-printed chassis designed in CAD.
+  
+
+personal_explanation_markdown: >-
+  This was one of my earliest experiences with full-system integration. Also,
+  working in a formal engineering context was new.
+
+contributions:
+  - "Worked on sensing and embedded control."
+  - "Wrote and tested firmware."
+  - "Integrated and tested the vehicle."
+  - "Helped troubleshoot failures under a tight deadline."
+
+technologies:
+  - "Raspberry Pi"
+  - "Embedded sensors"
+  - "Autonomous control"
+  - "Prototype electronics"
+
+keywords:
+  - "Robotics"
+  - "Systems integration"
+  - "Sensor feedback"
+  - "Mechanical design"
+  - "Physical testing"
+  - "Raspberry Pi"
+  - "Sensors"
+  - "CAD"
+  - "Autonomous systems"
+
+links: []
+
+images:
+  cover:
+    src: "/images/projects/eng200-car/cover.webp"
+    alt: >-
+      Autonomous delivery vehicle built for an engineering design course.
+    caption: "Our vehicle."
+
+  gallery: []

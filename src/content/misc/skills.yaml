@@ -1,0 +1,304 @@
+groups:
+  - id: "machine-learning"
+    heading: "Machine Learning"
+
+    skills:
+      - name: "PyTorch"
+        project_ids:
+          - "multi-agent-simulator"
+
+      - name: "LLM agents & agent architecture"
+        project_ids:
+          - "multi-agent-simulator"
+
+      - name: "Multi-agent systems"
+        project_ids:
+          - "multi-agent-simulator"
+          - "xml-textbook"
+
+      - name: "Explainable AI"
+        project_ids:
+          - "multi-agent-simulator"
+          - "xml-textbook"
+
+      - name: "Linear probes & sparse autoencoders"
+        project_ids:
+          - "multi-agent-simulator"
+
+      - name: "TensorFlow / Keras"
+        project_ids:
+          - "precisionfit"
+
+      - name: "Computer vision & pose estimation"
+        project_ids:
+          - "precisionfit"
+
+      - name: "Model training & dataset creation"
+        project_ids:
+          - "precisionfit"
+
+  - id: "electrical-engineering"
+    heading: "Electrical Engineering"
+
+    skills:
+      - name: "PCB design (Altium / KiCad)"
+        project_ids:
+          - "flight-computer"
+          - "wall-e"
+          - "anemometer"
+
+      - name: "Circuit & power-supply design"
+        project_ids:
+          - "flight-computer"
+          - "wall-e"
+          - "anemometer"
+
+      - name: "Embedded C firmware"
+        project_ids:
+          - "flight-computer"
+          - "wall-e"
+          - "anemometer"
+
+      - name: "STM32 / ESP32 development"
+        project_ids:
+          - "flight-computer"
+          - "wall-e"
+          - "anemometer"
+
+      - name: "Sensors & instrumentation"
+        project_ids:
+          - "flight-computer"
+          - "anemometer"
+          - "eng200-car"
+
+      - name: "I2C / UART / CAN communication protocols"
+        project_ids:
+          - "flight-computer"
+          - "wall-e"
+
+      - name: "Hardware debugging & testing"
+        project_ids:
+          - "wall-e"
+          - "anemometer"
+          - "eng200-car"
+
+      - name: "Motor & autonomous control"
+        project_ids:
+          - "wall-e"
+          - "eng200-car"
+
+      - name: "State estimation & sensor fusion"
+        project_ids:
+          - "flight-computer"
+          - "rocket-analysis"
+
+  - id: "software"
+    heading: "Software Engineering"
+
+    skills:
+      - name: "Python"
+        project_ids:
+          - "multi-agent-simulator"
+          - "precisionfit"
+          - "connect-four"
+          - "bot-builder"
+          - "search-visualizer"
+          - "inspire"
+
+      - name: "Django"
+        project_ids:
+          - "precisionfit"
+          - "bot-builder"
+          - "search-visualizer"
+          - "inspire"
+
+      - name: "JavaScript / HTML / CSS"
+        project_ids:
+          - "cashcorn"
+          - "bot-builder"
+          - "search-visualizer"
+          - "inspire"
+
+      - name: "SQL / SQLite"
+        project_ids:
+          - "inspire"
+          - "bot-builder"
+          - "search-visualizer"
+
+      - name: "Swift / SwiftUI / iOS"
+        project_ids:
+          - "nestup"
+
+      - name: "Full-stack application development"
+        project_ids:
+          - "multi-agent-simulator"
+          - "cashcorn"
+          - "inspire"
+          - "bot-builder"
+
+      - name: "Browser extension development"
+        project_ids:
+          - "cashcorn"
+
+      - name: "Desktop automation"
+        project_ids:
+          - "bot-builder"
+
+      - name: "Search, pathfinding & game AI"
+        project_ids:
+          - "search-visualizer"
+          - "connect-four"
+
+      - name: "Git & collaborative development"
+        project_ids:
+          - "wall-e"
+          - "nestup"
+
+  - id: "simulation"
+    heading: "Simulation"
+
+    skills:
+      - name: "Agent-based simulation"
+        project_ids:
+          - "multi-agent-simulator"
+
+      - name: "Numerical methods"
+        project_ids:
+          - "multi-agent-simulator"
+          - "rocket-analysis"
+          - "flight-computer"
+
+      - name: "LTspice circuit simulation"
+        project_ids:
+          - "flight-computer"
+
+      - name: "Six-degree-of-freedom flight modelling"
+        project_ids:
+          - "rocket-analysis"
+
+      - name: "MAPLEAF / RocketPy / OpenRocket"
+        project_ids:
+          - "rocket-analysis"
+
+      - name: "Flight dynamics & stability"
+        project_ids:
+          - "rocket-analysis"
+
+      - name: "Monte Carlo & risk analysis"
+        project_ids:
+          - "rocket-analysis"
+
+      - name: "Computational fluid dynamics"
+        project_ids:
+          - "rocket-analysis"
+          - "advanced-materials"
+
+      - name: "Aeroelasticity & fin flutter"
+        project_ids:
+          - "rocket-analysis"
+
+      - name: "Kalman filtering & state estimation"
+        project_ids:
+          - "rocket-analysis"
+          - "flight-computer"
+
+      - name: "Simulation tooling & validation"
+        project_ids:
+          - "rocket-analysis"
+
+  - id: "mechanical-design"
+    heading: "Mechanical Design & Prototyping"
+
+    skills:
+      - name: "3D CAD / SolidWorks"
+        project_ids:
+          - "anemometer"
+          - "eng200-car"
+          - "wall-e"
+
+      - name: "Rapid prototyping & 3D printing"
+        project_ids:
+          - "anemometer"
+          - "eng200-car"
+          - "wall-e"
+
+      - name: "Electromechanical systems integration"
+        project_ids:
+          - "anemometer"
+          - "eng200-car"
+          - "wall-e"
+
+      - name: "Robotics & autonomous vehicles"
+        project_ids:
+          - "eng200-car"
+          - "wall-e"
+
+      - name: "Physical testing & troubleshooting"
+        project_ids:
+          - "eng200-car"
+          - "wall-e"
+          - "anemometer"
+
+  - id: "research-communication"
+    heading: "Research & Communication"
+
+    skills:
+      - name: "Technical writing"
+        project_ids:
+          - "xml-textbook"
+          - "ai-mma-judging"
+          - "precisionfit"
+          - "xenobots"
+
+      - name: "Literature review & synthesis"
+        project_ids:
+          - "xml-textbook"
+          - "advanced-materials"
+          - "xenobots"
+
+      - name: "Electrospinning"
+        project_ids:
+          - "advanced-materials"
+
+      - name: "Nanofibre & thin-film fabrication"
+        project_ids:
+          - "advanced-materials"
+
+      - name: "Materials characterization"
+        project_ids:
+          - "advanced-materials"
+
+      - name: "3D bioprinting"
+        project_ids:
+          - "advanced-materials"
+
+      - name: "Experimental research"
+        project_ids:
+          - "advanced-materials"
+
+      - name: "Experimental parameter tuning"
+        project_ids:
+          - "advanced-materials"
+
+      - name: "AI safety & responsible AI analysis"
+        project_ids:
+          - "multi-agent-simulator"
+          - "ai-mma-judging"
+
+      - name: "Technical education & visualization"
+        project_ids:
+          - "xml-textbook"
+          - "search-visualizer"
+          - "ai-mma-judging"
+
+      - name: "Research presentation & product storytelling"
+        project_ids:
+          - "multi-agent-simulator"
+          - "cashcorn"
+          - "xenobots"
+
+      - name: "Project leadership & cross-team collaboration"
+        project_ids:
+          - "wall-e"
+          - "rocket-analysis"
+          - "nestup"

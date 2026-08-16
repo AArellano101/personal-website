@@ -1,0 +1,64 @@
+id: "bot-builder"
+title: "Bot Builder Website"
+status: "First-ever personal project"
+featured: false
+collapsible: true
+
+summary_markdown: >-
+  A web interface for constructing and configuring bots that automate mouse and keyboard interactions
+  through a visual workflow.
+
+description_markdown: |-
+  This project was my very first coding project, back when I was in middle school!
+
+  This web project allowed for configurable "bots," which are sets of mouse
+  and keyboard actions. For example, one bot could be customized to open a new tab, type a query,
+  open the first link, scroll to the bottom and read the information.
+
+  I used **PyAutoGUI** in **Python**, along with **Django**, **HTML**, **JS**, and **CSS** for the app.
+
+  This project helped me think about how interface structure can explain the
+  technical system underneath it.
+
+personal_explanation_markdown: >-
+  My first coding project!
+
+contributions:
+  - "Developed the website interface."
+  - "Implemented the bot-configuration workflow."
+  - "Focused on making technical choices understandable."
+
+technologies:
+  - "Python"
+  - "Django"
+  - "JavaScript"
+  - "HTML"
+  - "CSS"
+  - "SQLite"
+  - "Bootstrap"
+  - "PyAutoGUI"
+  - "pynput"
+
+keywords:
+  - "Visual bot builder"
+  - "Drag-and-drop workflow editor"
+  - "Desktop automation"
+  - "Mouse and keyboard automation"
+  - "Reusable automation workflows"
+  - "Bot sharing and discovery"
+
+links:
+  - label: "View source"
+    href: "https://github.com/AArellano101/bot-builder-website"
+    type: "source"
+
+images:
+  cover:
+    src: "/images/projects/bot-builder-create.png"
+    alt: "Interface of Aaron's bot-builder website."
+    caption: "Interface for creating a set of automated interactions."
+
+  gallery: 
+    - src: "/images/projects/bb-ex.png"
+      alt: ""
+      caption: "View and run a previously created bot."

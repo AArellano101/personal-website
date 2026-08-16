@@ -1,0 +1,57 @@
+id: "xenobots"
+title: "Xenobots and Microplastics"
+status: "Consulting hackathon winner"
+featured: false
+collapsible: true
+
+summary_markdown: >-
+  A moonshot proposal exploring whether biological robots could
+  contribute to microplastic remediation.
+
+description_markdown: |-
+  For a consulting hackathon, my team explored **xenobots** as a possible
+  future tool for addressing microplastic pollution.
+
+  Xenobots are microscopic, computer-designed biological life forms that can be
+  programmed to perform simple tasks. We proposed a moonshot concept that would use
+  xenobots to collect microplastics from the ocean and transport them to a
+  central location for removal.
+
+  The project required us to integrate biology, engineering,
+  environmental impact, and public communication.
+
+personal_explanation_markdown: >-
+  I enjoyed studying an esoteric technology in a commercial setting. Consulting seems pretty cool.
+
+contributions:
+  - "Contributed to technical and strategic research."
+  - "Helped develop the proposed application."
+  - "Contributed to the final presentation and article."
+
+technologies:
+  - "Scientific literature review"
+  - "Technical writing"
+
+keywords:
+  - "Consulting"
+  - "Microplastic remediation"
+  - "Environmental impact"
+  - "Emerging technology"
+  - "Speculative engineering"
+  - "Xenobots"
+  - "Environmental technology"
+  - "Research"
+
+links:
+  - label: "Read the article"
+    href: "https://medium.com/@aaronjobarellano/harnessing-xenobots-to-combat-microplastics-a1a1b20a5ec2"
+    type: "article"
+
+images:
+  cover:
+    src: "/images/projects/xenobot.png"
+    alt: >-
+      Conceptual illustration from the xenobots and microplastics proposal.
+    caption: "A speculative system for a difficult environmental problem."
+
+  gallery: []

@@ -1,0 +1,111 @@
+id: "multi-agent-simulator"
+title: "Multi-Agent Simulator with White-Box Explainability"
+status: "Active research"
+featured: true
+
+summary_markdown: >-
+  The **explainability crisis** describes the growing gap between our use of large language models (LLMs)
+  and our understanding of their internal mechanisms. This project aims to improve our understanding of LLMs
+  in **multi-agent systems**.
+
+description_markdown: |-
+  LLMs built on the **transformer** architecture (the 'T' in ChatGPT) are notorious black boxes, meaning we 
+  *don't know with absolute certainty what makes them interpret data*. The contributing factors are:
+  1. Massive scale
+  2. Data that is not human-interpretable
+  3. Complex nonlinear math
+
+  So when LLMs behave in unusual ways (hallucination, overconfidence, deception), we can't completely understand
+  what causes these behaviours.
+
+  But this doesn't stop developers and researchers from pushing LLMs to their limits. 
+
+  **LLM-based agents** are a recent innovation and a hot topic in many industries. These agents are essentially
+  systems built around LLMs that are *proactive* rather than *reactive*. By adding robust structures (memory, planning, profile, action)
+  on top of an LLM functioning as the "brain," agents can solve problems *autonomously*.
+
+  **Multi-agent systems** are systems that use multiple LLM-based agents to tackle more complex problems, especially those
+  that would require a single agent to balance multiple objectives, tasks, beliefs, etc.
+
+  **Unfortunately, agents and multi-agent systems inherit the black-box nature of LLMs**. This propagates the
+  explainability crisis further. Currently, explainability methods are either **black-box** explainability, which studies
+  a model from the outside, or **white-box** explainability, which studies a model from the inside. Of the two, white-box
+  explainability is more revealing. 
+
+  This project focuses on applying white-box explainability to multi-agent systems. 
+
+  The contributions of this work are:
+  1. A multi-agent simulator, providing a controlled environment to analyze anomalous behaviours.
+  2. White-box explainability tools, used to analyze collected internal data.
+
+  The pipeline of this project is shown below. Essentially, this project starts by simulating a scenario involving
+  multiple agents and collecting the internal data within each agent's LLM.
+
+  This data can be used with **linear probes, sparse autoencoders, and tuned lenses**, among others, to classify whether
+  certain anomalous behaviours are present. 
+
+  Overall, **this project aims to provide an integrated safety framework that helps address the explainability crisis.**
+  
+
+personal_explanation_markdown: >-
+  I'm most interested in the methods of white-box explainability. For example, linear probes
+  can (roughly) detect whether an agent is "thinking" deceptive thoughts before they act on them!
+
+contributions:
+  - "Designed the configurable multi-agent simulation architecture."
+  - "Implemented scenario, case, agent, memory, and Theory of Mind systems."
+  - "Built a framework for configurable ML explainability methods: linear probes and sparse autoencoders."
+  - "Developed reflection workflows for beliefs, objectives, and plans."
+  - "Designed the activation-collection and explainability roadmap."
+
+technologies:
+  - "Python"
+  - "PyTorch"
+  - "Full-stack design"
+  - "Agentic AI"
+  - "Multi-agent systems"
+  - "Language models"
+  - "Machine learning"
+  - "Numerical methods"
+
+keywords:
+  - "Machine learning"
+  - "Agentic AI"
+  - "Private-state reasoning"
+  - "Agent self-reflection"
+  - "Agent memory"
+  - "Agent coordination"
+  - "Deception"
+  - "Sycophancy"
+  - "Information leakage"
+  - "Coordination failures"
+  - "Large language models"
+  - "Multi-agent systems"
+  - "AI safety"
+  - "Agent simulation"
+  - "Mechanistic interpretability"
+  - "Linear probes"
+  - "Sparse autoencoders"
+  - "White-box explainability"
+
+links: []
+
+images:
+  cover:
+    src: "/images/projects/ui.png"
+    alt: "Interface of Aaron's multi-agent LLM simulator."
+    caption: "Configuring a controlled multi-agent experiment."
+
+  gallery:
+    - src: "/images/projects/message-ui.png"
+      alt: >-
+        Interface showing an agent's private beliefs, objectives, and plans.
+      caption: The message UI, which includes the ToM and internal data.
+    - src: "/images/current/pipeline-mals.png"
+      alt: >-
+        Pipeline.
+      caption: The pipeline of this framework.
+
+    - src: "/images/current/comp-mals.png"
+      alt: "Comparison"
+      caption: "Comparison of this work with contemporary works."

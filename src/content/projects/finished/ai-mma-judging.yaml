@@ -1,0 +1,63 @@
+id: "ai-mma-judging"
+title: "Should Combat Sports Use AI Judges?"
+status: "Personal article"
+featured: false
+
+summary_markdown: >-
+  An article examining whether AI could improve boxing and MMA judging. 
+
+description_markdown: |-
+  As an avid boxing and MMA fan, I am frequently annoyed by poor judging.
+  How do judges get decisions wrong so often? 
+  
+  I wrote this article soon after Vasily Lomachenko vs. Devin Haney, when the boxing world and
+  I questioned whether the judges' biases had caused the poor decision. 
+  Although Lomachenko outstruck and "out-damaged" Haney, the judges gave him the loss. Why?
+  
+  In this article, I explore how AI may (or may not) be used to eliminate scoring biases in
+  boxing and MMA.
+
+  The question becomes much more complicated once judging criteria,
+  incomplete visual information, model bias, interpretability, and public
+  trust are considered.
+
+  The article treats AI as a possible decision-support tool rather than
+  assuming that automation automatically creates objectivity.
+
+personal_explanation_markdown: >-
+  This question sits directly between two of my interests: AI and sports.
+
+contributions:
+  - "Researched AI-assisted sports judging."
+  - "Introduced fundamentals of deep learning and computer vision."
+  - "Compared technical possibilities with institutional risks."
+  - "Translated the topic for a general audience."
+
+technologies:
+  - "Technical writing"
+  - "Computer vision"
+
+keywords:
+  - "Computer vision"
+  - "Technical writing"
+  - "Sports analytics"
+  - "Decision support"
+  - "Model bias"
+  - "Interpretability"
+  - "Algorithmic fairness"
+  - "Human oversight"
+
+
+links:
+  - label: "Read the article"
+    href: "https://medium.com/@aaronjobarellano/should-boxing-and-mma-fans-look-to-ai-as-judges-b0c3e909fb57"
+    type: "article"
+
+images:
+  cover:
+    src: "/images/projects/deepstrike.png"
+    alt: >- 
+      DeepStrike
+    caption: "DeepStrike, an example of AI judging."
+
+  gallery: []

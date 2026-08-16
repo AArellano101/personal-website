@@ -1,0 +1,13 @@
+aria_label: "Notebook sections"
+home_aria_label: "Return to the top of Aaron's notebook"
+home_target: "top"
+
+items:
+  - label: "Now + interests"
+    target: "right-now"
+
+  - label: "Projects"
+    target: "projects"
+
+  - label: "Skills + contact"
+    target: "misc"

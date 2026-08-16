@@ -1,0 +1,30 @@
+contacts:
+  - id: "email"
+    label: "Email"
+    value: "aaronjobarellano@gmail.com"
+    href: "mailto:aaronjobarellano@gmail.com"
+    aria_label: "Email Aaron Arellano"
+
+  - id: "github"
+    label: "GitHub"
+    value: "@AArellano101"
+    href: "https://github.com/AArellano101"
+    aria_label: "View Aaron Arellano on GitHub"
+
+  - id: "linkedin"
+    label: "LinkedIn"
+    value: "Aaron Arellano"
+    href: "https://www.linkedin.com/in/aaronjcarellano/"
+    aria_label: "View Aaron Arellano on LinkedIn"
+
+  - id: "medium"
+    label: "Medium"
+    value: "@aaronjobarellano"
+    href: "https://medium.com/@aaronjobarellano"
+    aria_label: "Read Aaron Arellano's articles on Medium"
+
+  - id: "resume"
+    label: "Résumé"
+    value: "PDF to be added"
+    aria_label: "Aaron Arellano's résumé will be added soon"
+    available: false

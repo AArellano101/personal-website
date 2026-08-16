@@ -1,0 +1,13 @@
+id: "interests"
+figure_label: "Fig. 02"
+heading: "What I'm interested in"
+
+intro_markdown: >-
+  These fields are where most of my curiosity lies.
+
+interaction_hint: "Choose a field, then hover over or focus on a topic for a personal note."
+
+map_order:
+  - "ml"
+  - "engineering"
+  - "media"

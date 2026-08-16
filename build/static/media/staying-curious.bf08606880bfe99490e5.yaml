@@ -1,0 +1,13 @@
+id: "staying-curious"
+number: "06"
+behavior: "popup"
+
+title: "Staying curious"
+
+content:
+  body_markdown: >-
+    I love **[reading](#interest-books)** and
+    **[building stuff](#projects)**.
+
+    Curiosity is the most fundamental part of who I am across engineering,
+    machine learning, books, math, and much more.

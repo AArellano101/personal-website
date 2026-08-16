@@ -1,0 +1,67 @@
+id: "advanced-materials"
+title: "Nanoscience Research"
+status: "Research internship"
+featured: false
+
+summary_markdown: >-
+  Research involving electrospun nanofibres, nanofillers,
+  characterization, and direct-ink-writing 3D bioprinting.
+
+description_markdown: |-
+  During a research internship, I worked with electrospinning and
+  direct-ink-writing 3D bioprinting to study advanced materials fabrication
+  and produced simulations for advanced chemical devices.
+
+  I produced several cellulose acetate and nanofiller-based films, fine-tuned
+  fabrication parameters, and supported materials characterization and
+  literature review.
+
+  In addition, I produced CFD simulations for solar evaporators, eco-friendly devices
+  that use sunlight to turn water into vapour.
+
+  The experience taught me that experimental research is often a long
+  conversation between preparation, observation, failure, and revision.
+
+personal_explanation_markdown: >-
+  I valued what this experience taught me about research. By nature, research requires attention
+  to detail, care, and patience.
+  
+contributions:
+  - "Fabricated multiple electrospun thin-film variations."
+  - "Adjusted electrospinning and material parameters."
+  - "Produced several computational fluid dynamics simulations."
+  - "Worked with 3D bioprinting methods."
+  - "Reviewed literature and contributed to team research discussions."
+
+technologies:
+  - "Nanoscience literature review"
+  - "3D bioprinting"
+  - "Electrospinning"
+  - "Materials characterization"
+
+keywords:
+  - "Nanoscience"
+  - "CFD simulation"
+  - "Nanofibres"
+  - "Thin films"
+  - "Fabrication parameters"
+  - "Experimental research"
+  - "Advanced materials"
+  - "3D bioprinting"
+  - "Research"
+
+links: 
+  - label: "Lab Directory"
+    href: "https://researchdirectory.ucalgary.ca/interfacial-science-advanced-materials/group-members"
+    type: "lab"
+
+images:
+  cover:
+    src: "/images/projects/solar-evaporators.png"
+    alt: "Solar interfacial evaporators."
+    caption: "Solar interfacial evaporators, advanced materials science devices."
+
+  gallery:
+    - src: "/images/projects/electrospinning.png"
+      alt: "A collection of electrospun material samples."
+      caption: "Electrospinning."

@@ -1,0 +1,45 @@
+id: "engineering"
+label: "Engineering"
+colour_token: "engineering"
+
+position:
+  x_percent: 66
+  y_percent: 18
+
+intro_markdown: >-
+  Engineering is where I get to turn an idea into a system and iterate on it to make it perfect.
+
+nodes:
+  - id: "engineering-rockets"
+    label: "Rockets"
+    note: >-
+      Rocket engineering is a delicate balance between propulsion, aerodynamics, structures,
+      electronics, software, and the environment. 
+
+  - id: "engineering-pcbs"
+    label: "Printed circuit boards"
+    note: >-
+      I like that a PCB turns an abstract schematic into a physical object, which can be used in
+      so many ways.
+
+  - id: "engineering-embedded"
+    label: "Embedded systems"
+    note: >-
+      Embedded systems are where software/firmware interacts with the world through hardware.
+
+  - id: "engineering-software"
+    label: "Software systems"
+    note: >-
+      I enjoy building full-stack tools, APIs, and software architectures for complex engineering problems.
+
+  - id: "engineering-simulation"
+    label: "Simulation"
+    note: >-
+      Simulation provides a cost-effective way to understand **why a design behaves as it does** and improve the
+      physical design before the real version comes around.
+
+  - id: "engineering-systems"
+    label: "Systems thinking"
+    note: >-
+      Improving one part can make the whole system worse. I like tracing those
+      interactions instead of optimizing each component in isolation.

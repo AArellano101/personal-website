@@ -1,0 +1,87 @@
+id: "media"
+label: "Media"
+colour_token: "media"
+
+position:
+  x_percent: 24
+  y_percent: 72
+
+intro_markdown: >-
+  Literature, movies, and music are all media that express ideas I find very interesting.
+
+nodes:
+  - id: "media-books"
+    anchor_id: "interest-books"
+    label: "Books"
+    note: >-
+      I like books that explore personal ideas like morality, God, faith, and consciousness. I also think history, philosophy,
+      classics, science fiction, and science are all cool.
+
+    detail:
+      heading: "Books I keep thinking about"
+      intro_markdown: >-
+        Books that I probably revisit multiple times throughout my life.
+
+      favourites:
+        - title: "The Brothers Karamazov"
+          creator: "Fyodor Dostoevsky"
+
+        - title: "Fear and Trembling"
+          creator: "Søren Kierkegaard"
+
+        - title: "Solaris"
+          creator: "Stanisław Lem"
+
+        - title: "Dune"
+          creator: "Frank Herbert"
+
+        - title: "The History of Philosophy"
+          creator: "A. C. Grayling"
+
+  - id: "media-music"
+    label: "Music"
+    note: >-
+      "Music is the language of the soul," right? I'm always listening to music.
+
+    detail:
+      heading: "Albums in regular rotation"
+
+      favourites:
+        - title: "The Miseducation of Lauryn Hill"
+          creator: "Lauryn Hill"
+
+        - title: "If You're Reading This It's Too Late"
+          creator: "Drake"
+
+        - title: "Never Enough"
+          creator: "Daniel Caesar"
+
+        - title: "Sonder Son"
+          creator: "Brent Faiyaz"
+
+  - id: "media-movies"
+    label: "Movies"
+    note: >-
+      Movies are dope.
+
+    detail:
+      heading: "Movies I return to"
+
+      favourites:
+        - title: "City of God"
+        - title: "Dune: Part Two"
+        - title: "Django Unchained"
+        - title: "Baby Driver"
+
+  - id: "media-philosophy"
+    label: "Philosophy"
+    note: >-
+      But why? #larp
+
+    detail:
+      heading: "Some philosophers I frequently think about"
+
+      favourites:
+        - title: "St. Thomas Aquinas"
+        - title: "Aristotle"
+        - title: "Søren Kierkegaard"

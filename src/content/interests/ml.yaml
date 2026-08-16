@@ -1,0 +1,51 @@
+id: "ml"
+label: "Machine Learning"
+colour_token: "ml"
+
+position:
+  x_percent: 17
+  y_percent: 22
+
+intro_markdown: >-
+  Machine learning has captured my curiosity as a field that explores how machines can learn from data and make predictions.
+  The abstract concepts and internal mechanisms interest me, but the greater implications do as well.
+
+nodes:
+  - id: "ml-llms"
+    label: "Large language models"
+    note: >-
+      Large language models are a century-defining technology built on mechanisms that I find fascinating. Transformers, attention, MLPs, and embedding vectors are all sources of wonder for me.
+    connects_to:
+      - "art-storytelling"
+      - "art-books"
+  - id: "ml-explainability"
+    label: "Explainability"
+    note: >-
+      Experts have recognized the "explainability crisis" within LLMs. Essentially, the complexities of large-scale models obscure users' ability to
+      understand what's going on. I find this to be an intriguing and rapidly evolving topic. Sparse autoencoders, linear probes, and
+      Jacobian lenses are some explainability tools I've worked with.
+
+  - id: "ml-agents"
+    label: "Agents"
+    note: >-
+      When systems built around large language models become autonomous, they are called agents. The term is a favourite buzzword among modern-day tech bros and marketing teams.
+      To me, agents are both a subject of my ML research and part of the future of this world.
+
+  - id: "ml-multi-agent"
+    label: "Multi-agent systems"
+    note: >-
+      Why have one agent when you can have multiple? Multi-agent systems leverage the collective intelligence that comes with having multiple
+      agents. At the time of writing, multi-agent systems are on the doorstep of mass commercialization: "Gartner's December 2025 multi-agent systems
+      analysis documented a 1,445 per cent surge in enterprise inquiries about multi-agent systems."
+
+  - id: "ml-philosophy"
+    label: "Philosophy of AI"
+    note: >-
+      AI has many philosophical implications that are open for examination. Does the "Chinese Room" thought experiment prove that LLMs don't have minds?
+      Does the paper "LLMs can't jump" prove that an LLM's reasoning faculties are limited? Is consciousness in and of itself material, as many pro-AI modernists may imply?
+
+  - id: "ml-futurism"
+    label: "Futurism"
+    note: >-
+      The future of AI, particularly LLMs, seems to be a controversial topic in the modern world. What will AGI look like?
+      Is the ethical approach to AI found in Luddism, modernism, or a bit of both?

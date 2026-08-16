@@ -1,0 +1,10 @@
+id: "projects"
+figure_label: "Fig. 03"
+heading: "Projects"
+
+intro_markdown: >-
+  Some machine learning, some electrical engineering, and much more.
+
+group_order:
+  - "working-on"
+  - "finished"

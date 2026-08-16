@@ -1,0 +1,67 @@
+id: "soar"
+number: "04"
+behavior: "popup"
+
+title: "Contributing to rocket engineering"
+
+external_link:
+  label: "SOAR"
+  href: "https://www.soar-rockets.ca/"
+  aria_label: "Visit the SOAR website"
+
+content:
+  lead_markdown: >-
+    **Rockets** stick out to me because they require a delicate balance of nearly
+    every engineering discipline and leave very little margin for error.
+
+  body_markdown: |-
+    As a member of the Simulations Team for the University of Calgary's Student Organization for Aerospace Research (SOAR),
+    I act as a **cross-functional engineering link** between subteams. Subteams such as propulsion, airframe, and
+    avionics require processed data and analyses from one another, which is where simulations come in.
+
+    My work includes PCB design for a **wind vane** that measures wind direction,
+    **Kalman filter** analysis for onboard software systems, **rocket-motor** analysis,
+    **CFD simulation**, and flight simulations.
+
+  
+  topics:
+    - title: "Cross-subteam analysis"
+      description: >-
+        Connecting propulsion, avionics, manufacturing, and mechanical
+        design.
+
+    - title: "Flight simulation"
+      description: "Modelling the rocket from launch rail through ascent, apogee, and recovery."
+
+    - title: "Systems integration"
+      description: >-
+        Combining subsystem models, assumptions, and constraints into one model.
+
+    - title: "Numerical methods"
+      description: >-
+        Solving those models computationally.
+
+
+
+  keywords:
+    - "MAPLEAF"
+    - "RocketPy"
+    - "Monte Carlo"
+    - "Kalman filters"
+    - "CFD"
+    - "Fin flutter"
+    - "Aerodynamics"
+    - "State estimation"
+    - "Flight dynamics"
+    - "Sensor modelling"
+    - "Risk analysis"
+    - "Simulation validation"
+
+  images:
+    - src: "/images/current/toothless.png"
+      alt: "A SOAR rocket."
+      caption: "A rocket I helped make"
+
+    - src: "/images/current/wv.png"
+      alt: "Wind vane"
+      caption: "The wind vane I designed"

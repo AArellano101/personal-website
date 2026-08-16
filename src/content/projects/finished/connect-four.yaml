@@ -1,0 +1,67 @@
+id: "connect-four"
+title: "Connect Four Minimax AI"
+status: "Application and Arduino variants"
+featured: false
+collapsible: true
+
+summary_markdown: >-
+  A Connect Four opponent using minimax search, implemented in both
+  software and physical Arduino-based forms.
+
+description_markdown: |-
+  I used Connect Four to explore adversarial search through a game with
+  simple rules but a surprisingly large decision tree.
+
+  Minimax is an artificial intelligence algorithm that's highly applicable to game theory.
+  This project uses minimax as the backbone of the AI's decisions in a game of Connect Four
+  developed using **Python's Pygame** library.
+
+  The project includes software and Arduino variants, connecting the
+  minimax algorithm with both an application interface and a physical
+  implementation.
+
+  It was a useful introduction to how evaluation functions shape
+  apparently intelligent decisions.
+
+personal_explanation_markdown: >-
+  Connect Four made search feel concrete, especially for an abstract AI algorithm like 
+  minimax. 
+
+contributions:
+  - "Implemented minimax-based move selection."
+  - "Developed the application version."
+  - "Adapted the project for an Arduino-based implementation."
+  - "Designed and tested the game-evaluation logic."
+
+technologies:
+  - "Python"
+  - "Arduino"
+  - "Artificial intelligence"
+
+keywords:
+  - "Game development"
+  - "Game AI"
+  - "Minimax algorithm"
+  - "Adversarial search"
+  - "Depth-limited search"
+  - "Heuristic evaluation"
+  - "Physical computing"
+  - "Arduino game interface"
+  - "LED game board"
+
+links:
+  - label: "View source"
+    href: "https://github.com/AArellano101/connect-four"
+    type: "source"
+
+images:
+  cover:
+    src: "/images/projects/connect-four.png"
+    alt: "Connect Four application playing against a minimax AI."
+    caption: "A simple game using AI."
+
+  gallery:
+    - src: "/images/projects/minimax.png"
+      alt: "Arduino variant of the Connect Four minimax project."
+      caption: "Minimax is a search algorithm that finds the optimal move for an AI,
+        assuming that the opponent also plays optimally. A famous example is its use in tic-tac-toe."

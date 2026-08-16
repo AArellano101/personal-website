@@ -1,0 +1,97 @@
+id: "flight-computer"
+title: "Flight Computer"
+status: "Personal project"
+featured: true
+
+summary_markdown: >-
+  A custom rocket flight-computer PCB bringing together sensing,
+  embedded electronics, firmware, and three-dimensional state estimation.
+
+description_markdown: |-
+  This past summer, I designed a custom rocket flight computer
+  that collects and interprets data autonomously.
+
+  The board brings together sensors, power, data acquisition, embedded
+  processing, and numerical methods to produce the brain of the rocket.
+  
+  This board contains:
+
+  1. A **power supply circuit** that regulates power with ESD, overcurrent, reverse-polarity,
+  overvoltage, and undervoltage protection. This circuit was simulated using **LTspice**.
+
+  2. An **STM32H7 IC** acting as the board's integrated MCU, with its decoupling capacitors, clock oscillators, a reset button,
+  and header pins for debugging and flashing code via SWD and for outputting firmware print statements via UART.
+
+  3. Sensors, including a **barometer** for altitude, a **magnetometer** for orientation, and an **IMU** for acceleration. 
+
+  4. A **flash memory** IC to save sensor data.
+
+  5. A **CAN transceiver** and a **GPS** header for future expansion.
+
+  6. Practical PCB features like test points, thermal vias, and ground and power planes.
+
+  7. **Firmware written in C** that:
+
+    a. Collects data from various sensors using I2C.
+
+    b. Refines and processes data using ground calibration and integration.
+
+    c. Logs data to the flash memory IC.
+
+    d. Provides a command-line interface to read logged data.
+
+  8. An **unscented Kalman filter** that estimates rocket states by accounting for sensor and state covariance.
+
+  This project lets me connect circuit design, embedded systems, simulation, and Kalman filtering inside one physical system.
+
+personal_explanation_markdown: >-
+  Something I love about this project is that it connects my **hardware** side and 
+  my **software** side. I love concrete, physical systems, but I love abstract 
+  design just the same. An embedded system like this PCB connects the two.
+
+contributions:
+  - "Developed the electrical architecture and schematic."
+  - "Designed the PCB layout and board interfaces."
+  - "Wrote and tested microcontroller firmware."
+  - "Created a three-dimensional unscented Kalman filter."
+
+technologies:
+  - "Altium"
+  - "C"
+  - "STM32CubeIDE"
+  - "Unscented Kalman filtering"
+  - "LTspice"
+
+keywords:
+  - "PCB"
+  - "Embedded systems"
+  - "Sensors"
+  - "UKF"
+  - "State estimation"
+  - "Rocket avionics"
+  - "Flight computer"
+  - "Sensor fusion"
+  - "Schematic design"
+  - "Three-dimensional state estimation"
+  - "Real-time operating system"
+
+links: 
+  - label: "View GitHub repository"
+    href: "https://github.com/AArellano101/flight-computer"
+
+
+images:
+  cover:
+    src: "/images/projects/flight-comp-pcb-design.png"
+    alt: "PCB design for the flight computer."
+    caption: "The PCB design."
+
+  gallery:
+    - src: "/images/projects/flight-comp-pcb.png"
+      alt: "Physical flight-computer PCB prototype."
+      caption: "The first prototype."
+
+    - src: "/images/projects/power-supply.png"
+      alt: >-
+        Power supply circuit.
+      caption: Power supply circuit with overcurrent, ESD, overvoltage, reverse-polarity, and undervoltage protection.

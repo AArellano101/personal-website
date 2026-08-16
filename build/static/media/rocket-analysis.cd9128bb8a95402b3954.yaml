@@ -1,0 +1,125 @@
+id: "rocket-analysis"
+title: "Rocket Analysis"
+status: "SOAR projects"
+featured: true
+
+summary_markdown: >-
+  Flight simulation, state estimation, CFD, flutter, Kalman filtering, and
+  cross-subteam modelling for SOAR rockets.
+
+description_markdown: |-
+  This project is less a single artifact and more a growing portfolio of rocket analysis
+  developed through my work with SOAR.
+
+  Working on SOAR's Simulations Team enables me to work with many other teams:
+  Propulsion, Avionics, Airframe, and Payload.
+
+  My work includes:
+
+  **1. Cross-Subteam Systems Analysis**:
+  Integrated information from propulsion, avionics, structures/manufacturing, and other
+  subteams into system-level rocket models. Simulation acted as a common interface for
+  understanding how subsystem design decisions affected the vehicle as a whole.
+
+  **2. Toothless Flight Simulation**:
+    Built and refined a full-flight model of Toothless, correcting vehicle geometry,
+    mass properties, motor data, recovery parameters, and environmental conditions.
+    Compared simulation outputs across tools to validate predicted trajectory and performance.
+  
+  **3. Aegis Flight Simulation**:
+    Modelled Aegis' flight to predict quantities such as velocity, altitude, acceleration,
+    stability, and apogee. Simulation results also served as inputs for structural and
+    aerodynamic analyses.
+  
+  **4. MAPLEAF Extensions & Simulation Tooling**:
+    Extended MAPLEAF with custom tools and workflows tailored to SOAR's simulation needs.
+    Worked with motor-data processing, simulation configuration, automation, and other features
+    beyond standard off-the-shelf use.
+  
+  **5. Fin Flutter & Aeroelasticity Analysis**:
+    Analyzed whether Aegis' fins could safely withstand high-speed flight without aeroelastic
+    flutter. Combined flight predictions, fin geometry, atmospheric conditions, and
+    composite-material properties to estimate flutter limits.
+  
+  **6. CFD & Aerodynamic Analysis**:
+    Used computational fluid dynamics and aerodynamic modelling to investigate airflow and
+    forces acting on high-power rockets. These analyses helped connect vehicle geometry
+    with predicted flight behaviour.
+  
+  **7. Dynamic Stability & Damping**:
+    Studied how rockets respond to disturbances by examining damping ratios, moments of inertia,
+    aerodynamic restoring forces, and natural frequencies. Examined how design choices influence
+    oscillation, weathercocking, and overall flight stability.
+  
+  **8. Kalman Filtering & State Estimation**:
+    Worked on state-estimation methods for combining noisy flight-sensor measurements
+    into improved estimates of rocket position, velocity, orientation, and motion. This
+    connected simulation work directly with avionics and flight-computer development.
+  
+  **9. Monte Carlo & Risk Analysis**:
+    Used repeated simulations with varying environmental and vehicle parameters to evaluate
+    uncertainty in predicted flight behaviour. This helped identify performance ranges and
+    assess sensitivity to factors such as wind, motor characteristics, and launch conditions.
+  
+
+
+
+personal_explanation_markdown: >-
+  Rocket analysis keeps rewarding a systems view, which is a way of thinking I
+  pride myself on.
+
+contributions:
+  - "Built and refined six-degree-of-freedom flight models for Toothless and Aegis."
+  - "Developed custom MAPLEAF extensions and simulation tooling for SOAR-specific workflows."
+  - "Performed Monte Carlo simulations and risk analyses across vehicle and environmental uncertainties."
+  - "Investigated fin flutter, aeroelasticity, aerodynamic loads, and CFD-based flight behaviour."
+  - "Studied dynamic stability, damping, trajectory, acceleration, and overall flight envelopes."
+  - "Supported Kalman-filter and state-estimation work for rocket flight computers."
+  - "Integrated propulsion, avionics, structures, and manufacturing inputs into system-level simulations."
+  - "Validated simulation results across MAPLEAF, RocketPy, OpenRocket, and supporting analytical models."
+
+technologies:
+  - "MAPLEAF"
+  - "RocketPy"
+  - "OpenRocket"
+  - "Computational fluid dynamics"
+  - "Monte Carlo simulation"
+  - "Kalman filtering"
+  - "Numerical methods"
+  - "Flight dynamics"
+
+keywords:
+  - "Flight mechanics"
+  - "Simulation"
+  - "Flight dynamics"
+  - "Aeroelasticity"
+  - "State estimation"
+  - "Risk analysis"
+  - "Simulation validation"
+  - "Trajectory prediction"
+  - "Systems integration"
+
+links: []
+
+images:
+  cover:
+    src: "/images/projects/mapleaf-sim.png"
+    alt: "A rocket flight simulation using the MAPLEAF CLI."
+    caption: "A rocket flight simulation using the MAPLEAF CLI."
+
+  gallery:
+    - src: "/images/current/toothless.png"
+      alt: "Toothless, a rocket I helped make."
+      caption: "Toothless, a rocket I helped make."
+
+    - src: "/images/projects/fin-flutter.png"
+      alt: "Fin flutter analysis."
+      caption: "Fin flutter analysis."
+
+    - src: "/images/projects/mapleaf-feat.png"
+      alt: "A MAPLEAF extension."
+      caption: "A MAPLEAF extension I added."
+    
+    - src: "/images/projects/openfoam.png"
+      alt: "Computational fluid dynamics in OpenFOAM."
+      caption: "Computational fluid dynamics in OpenFOAM."

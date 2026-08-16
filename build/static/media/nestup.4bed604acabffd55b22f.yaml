@@ -1,0 +1,49 @@
+id: "nestup"
+title: "Nestup"
+status: "iOS application"
+featured: false
+collapsible: true
+
+summary_markdown: >-
+  A collaborative social application for iOS users.
+
+description_markdown: |-
+  Nestup gave me experience contributing to a shared application rather
+  than building every part alone.
+
+  Nestup was a social media application developed collaboratively over several
+  months, inspired by platforms such as Instagram.
+
+  Nestup was built using **Swift** in **Xcode**.
+
+
+personal_explanation_markdown: >-
+  Nestup was one of my first experiences building a larger application collaboratively.
+
+contributions:
+  - "Co-developed a social media application for iOS."
+  - "Implemented and integrated features within a shared Swift codebase."
+  - "Worked on interfaces and workflows for social media functionality."
+
+technologies:
+  - "Swift"
+  - "SwiftUI"
+  - "Xcode"
+  - "iOS development"
+  - "Git"
+  - "UI development"
+
+keywords:
+  - "Social media"
+  - "Mobile development"
+  - "User profiles"
+  - "Media sharing"
+  - "Direct messaging"
+  - "Social interaction"
+  - "Collaborative development"
+  - "User experience"
+
+links:
+  - label: "View source"
+    href: "https://github.com/oskccy/nestup"
+    type: "source"

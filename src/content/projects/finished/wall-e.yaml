@@ -1,0 +1,83 @@
+id: "wall-e"
+title: "Remote-Controlled WALL-E"
+status: "University project"
+featured: true
+
+summary_markdown: >-
+  A WALL-E-inspired remote-controlled car combining electronics, firmware,
+  mechanical design, control systems, and a little personality.
+
+description_markdown: |-
+  For a second-year EE project, my design team and I designed a remote-controlled car (inspired by Pixar's WALL-E)
+  and its onboard telemetry system. Through this project, I learned an abundance of engineering principles,
+  including project management, circuit design, embedded systems, mechanical design, and systems-level thinking.
+
+  Our design includes:
+  1. A 3D-printed car, modelled after WALL-E!
+  2. A main onboard PCB containing an STM32 for motor control and telemetry logic, along with the power supply.
+  3. A secondary onboard PCB dedicated to handling metal detection.
+  4. Various sensors and parts for metal detection, noise generation, object detection, light generation, and secondary motor control (neck swivel movement).
+  5. Store-bought wheels, motors, and battery used with 3D-printed motor adapters.
+  6. A remote PCB containing another STM32 that handles:
+    a. Sending movement data and toggling lights for the car.
+    b. Receiving and processing raw data related to onboard object detection.
+  7. The remote PCB's 3D-printed shell.
+
+  Our car found success in the end-of-term class-wide competition, winning the **Ingenuity Award**
+  for its creative and technical design and ranking **fourth in the timed challenge**.
+
+personal_explanation_markdown: >-
+  I wanted to become well versed in systems-level thinking, integrating electronics, firmware,
+  and mechanical design cohesively.
+
+contributions:
+  - "Integrated software, electrical, and mechanical subsystems."
+  - "Designed and assembled the onboard PCB."
+  - "Developed the firmware for the onboard PCB."
+  - "Acted as the team's project manager."
+  - "Debugged systems using an oscilloscope and multimeter."
+
+technologies:
+  - "C / STM32 HAL"
+  - "KiCad"
+  - "STM32CubeIDE"
+  - "Git"
+  - "Communication protocols (UART, I2C)"
+
+keywords:
+  - Embedded systems
+  - PCB design
+  - STM32 microcontrollers
+  - Wireless telemetry
+  - Motor control
+  - Sensor integration
+  - Power electronics
+  - Mechanical CAD
+  - Rapid prototyping
+  - Systems integration
+
+
+links: 
+  - label: "View WALL-E move!"
+    href: "https://drive.google.com/file/d/1SeSXuHwVfHjTga2-ouUFAgxmSPGEZn2M/view?usp=sharing"
+  - label: "See our GitHub repo"
+    href: "https://github.com/AArellano101/enel300"
+  - label: "Technical report"
+    href: "https://drive.google.com/file/d/1Gna134skE3hzwFRNW8YUip_iDk-dFavt/view?usp=sharing"
+
+images:
+  cover:
+    src: "/images/projects/walle.jpg"
+    alt: "Aaron's WALL-E-inspired RC robot."
+    caption: "My beautiful boy"
+  gallery:
+    - src: "/images/projects/first_inge.jpg"
+      alt: "My team."
+      caption: "My team!"
+    - src: "/images/projects/walle-pcb.png"
+      alt: "The onboard PCB"
+      caption: "The onboard PCB"
+    - src: "/images/projects/walle-inside.jpg"
+      alt: >-
+        A peek inside WALL-E
+      caption: WALL-E's interior.

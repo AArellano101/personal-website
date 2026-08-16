@@ -1,0 +1,27 @@
+id: "finished"
+heading: "Finished"
+
+description: >-
+  Projects with a completed version.
+
+collapsible_limit: 20
+collapsible_heading: "Earlier notebook entries"
+show_collapsible_label: "View earlier projects"
+hide_collapsible_label: "Hide earlier projects"
+
+project_order:
+  - "flight-computer"
+  - "wall-e"
+  - "precisionfit"
+  - "cashcorn"
+  - "rocket-analysis"
+  - "anemometer"
+  - "ai-mma-judging"
+  - "advanced-materials"
+  - "eng200-car"
+  - "inspire"
+  - "nestup"
+  - "xenobots"
+  - "bot-builder"
+  - "connect-four"
+  - "search-visualizer"

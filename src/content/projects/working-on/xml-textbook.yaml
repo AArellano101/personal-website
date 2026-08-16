@@ -1,0 +1,29 @@
+id: "xml-textbook"
+title: "Explainable Machine Learning Online Textbook"
+status: "Writing"
+featured: false
+
+summary_markdown: >-
+  A chapter introducing explainability for agents and multi-agent systems.
+
+description_markdown: |-
+  I'm writing a chapter for an online textbook about **explainability in
+  machine learning**. My chapter focuses on multi-agent systems!
+
+  I can't share too many details just yet. Check back for more information...
+contributions:
+  - "Communicating fundamental ideas and definitions of explainability in multi-agent systems."
+  - "Synthesizing literature on agents, orchestration, and explainability."
+
+technologies:
+  - "Machine learning literature"
+  - "Explainable AI"
+  
+keywords:
+  - "Technical writing"
+  - "Explainability"
+  - "Multi-agent systems"
+  - "Literature review"
+  - "Education"
+
+links: []

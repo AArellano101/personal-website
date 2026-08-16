@@ -1,0 +1,67 @@
+id: "anemometer"
+title: "Anemometer"
+status: "SOAR project"
+featured: false
+
+summary_markdown: >-
+  A wind-direction sensor combining a custom PCB with
+  3D-printed mechanical design.
+
+description_markdown: |-
+  During a rocket launch, extensive sensor data is required, including wind direction.
+  This project combined sensor measurement, circuit design, PCB layout,
+  and mechanical packaging in a single instrument designed to measure it.
+
+  It was a useful exercise in designing a full system, including the mechanical, electrical, and software
+  aspects. Like I said on the front page, I like complex systems. This project is one of them.
+
+  I used **SolidWorks** for the CAD, **KiCad** for the electrical schematic and PCB, and **ESP-IDF** for the
+  ESP32 firmware, written in **C**.
+
+personal_explanation_markdown: >-
+  This was one of my first projects to contain all aspects of a system: the mechanical design, hardware,
+  and software.
+
+contributions:
+  - "Designed the circuit and PCB."
+  - "Developed the three-dimensional mechanical design."
+  - "Integrated the sensing and physical subsystems."
+  - "Wrote the firmware for the onboard ESP32."
+
+technologies:
+  - "PCB CAD"
+  - "KiCad"
+  - "SolidWorks"
+  - "3D CAD"
+  - "C / ESP-IDF"
+  - "Prototype electronics"
+
+keywords:
+  - "Embedded systems"
+  - "ESP32"
+  - "Sensor integration"
+  - "Mechanical packaging"
+  - "Circuit design"
+  - "Physical prototyping"
+  - "PCB design"
+  - "Signal conditioning"
+  - "Data acquisition"
+  - "Sensor calibration"
+  - "Microcontrollers"
+  - "Electromechanical design"
+  - "CAD"
+  - "Instrumentation"
+  - "Hardware debugging"
+
+links: []
+
+images:
+  cover:
+    src: "/images/current/wv.png"
+    alt: "Aaron's custom wind-vane prototype."
+    caption: "A small instrument sensing wind direction using electronics."
+
+  gallery:
+    - src: "/images/projects/anemometer-pcb.png"
+      alt: "Wind-vane PCB."
+      caption: "The wind vane's PCB."

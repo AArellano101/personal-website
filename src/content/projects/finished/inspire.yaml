@@ -1,0 +1,58 @@
+id: "inspire"
+title: "Inspire"
+status: "Personal project"
+featured: false
+collapsible: true
+
+summary_markdown: >-
+  A social media website built to explore full-stack development.
+
+description_markdown: |-
+  Inspire was a full-stack social media project in which I explored
+  how users, posts, profiles, and interactions fit together inside a
+  web application. The purpose of this app was to provide
+  curated, inspirational content to any user.
+
+  It helped me think about the application as a complex software system,
+  with interface states, data, authentication, and user behaviour.
+
+personal_explanation_markdown: >-
+  Inspire helped me stop thinking of a website as a collection of pages. A
+  social application only works when identity, data, interface state, and
+  interaction rules remain coherent.
+
+contributions:
+  - "Developed core website interfaces."
+  - "Worked with application data and user interactions."
+  - "Practiced full-stack project organization."
+
+technologies:
+  - "Python"
+  - "Django"
+  - "SQL"
+  - "HTML"
+  - "CSS"
+
+
+keywords:
+  - "Full-stack development"
+  - "User authentication"
+  - "Database modelling"
+  - "Social media"
+  - "User profiles"
+  - "Online communities"
+  - "Social interaction"
+  - "Relational databases"
+  
+links:
+  - label: "View source"
+    href: "https://github.com/AArellano101/inspire"
+    type: "source"
+
+images:
+  cover:
+    src: "/images/projects/inspire-ui.png"
+    alt: "Interface of the Inspire social media website."
+    caption: "UI of the social media app."
+
+  gallery: []

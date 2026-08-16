@@ -1,0 +1,56 @@
+id: "cashcorn"
+title: "CashCorn"
+status: "CalgaryHacks winner"
+featured: true
+
+summary_markdown: >-
+  A browser extension that interrupts impulsive online purchases with
+  personalized financial context and a moment to reconsider.
+
+description_markdown: |-
+  CashCorn began with a simple observation: online shopping is designed
+  to remove friction, even when a small amount of friction might help
+  somebody make a better decision.
+
+  Our **Chrome extension** detects the moment before a purchase and presents
+  personalized prompts and financial context.
+
+  I helped lead the project and worked on the **video-game pop-up** that
+  interrupts impulsive purchases.
+
+  The project placed at **CalgaryHacks 2025** and taught me how much a small
+  team can build when everybody agrees on a clear problem.
+
+personal_explanation_markdown: >-
+  I liked that CashCorn used technology to address something so prevalent among my generation.
+  The group I was in was also pretty cool.
+contributions:
+  - "Developed the video-game pop-up that interrupts impulsive purchases."
+  - "Contributed to the product presentation."
+
+technologies:
+  - "JavaScript"
+  - "Browser interface development"
+  - "Full-stack development"
+
+keywords:
+  - "Chrome extension"
+  - "Financial technology"
+  - "Hackathon"
+  - "Product design"
+
+links:
+  - label: "View on Devpost"
+    href: "https://devpost.com/software/cashcorn"
+    type: "project"
+
+images:
+  cover:
+    src: "/images/projects/cashcorn-ui.png"
+    alt: "CashCorn browser extension interface."
+    caption: "CashCorn browser extension interface."
+
+  gallery:
+    - src: "/images/projects/cashcorn-ui2.png"
+      alt: "CashCorn purchase-reflection prompt."
+      caption: "The form to collect user data."

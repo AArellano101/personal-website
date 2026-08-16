@@ -1,0 +1,62 @@
+id: "electrical-engineering"
+number: "02"
+behavior: "popup"
+
+title: "Studying Electrical & Digital Engineering"
+
+content:
+  lead_markdown: >-
+    I have always been interested in abstract concepts and concrete projects, but I've struggled to find a field 
+    that combines these two. Uniquely enough, **electrical engineering** combines the two effortlessly, which
+    is why I chose to major in this area. I also have a soft spot for software systems, which draws me toward **digital engineering**.
+
+  stats:
+    - value: "3.9"
+      label: "GPA"
+
+  awards_heading: "Academic awards and distinctions"
+
+  awards:
+    - "President's Admission Scholarship"
+    - "Schulich School of Engineering Dean's Entrance Scholarship"
+    - "Grant Hastings McNabb Memorial Award"
+    - "Society of Asian Scientists & Engineers (SASE) Scholarship"
+    - "CalgaryHacks 2025 Winner"
+    - "Schulich Undergraduate Research Program Award"
+    - "Undergraduate Student Research Award (NSERC USRA)"
+    - "2x Dean's List: 2024-2025 and 2025-2026"
+    - "Alexander Rutherford Scholarship"
+    - "Louise McKinney Scholarship"
+    - "ENEL 300 Design Ingenuity Award"
+    - "2x Student of the Year: 2023 and 2024 (High school)"
+    - "7x Class Distinction: Mathematics, Physics, and Computer Science (High school)"
+
+  favourite_areas_heading: "Some of my favourite things in this field"
+
+  favourite_areas:
+    - id: "electrical-design"
+      title: "Designing complete software & hardware systems"
+
+    - id: "learning"
+      title: "Learning about abstract mathematical or physical concepts"
+
+    - id: "team"
+      title: "Working with and meeting smart people"
+
+  keywords:
+  - "PCBs"
+  - "Software"
+  - "Hardware"
+  - "Systems thinking"
+
+  images:
+    - src: "/images/current/tesla.jpg"
+      alt: >-
+        Nikola Tesla
+      caption: >-
+        How I'm feeling
+    - src: "/images/current/pcb.png"
+      alt: >-
+        PCB
+      caption: >-
+        One of my PCB designs

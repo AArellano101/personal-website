@@ -1,0 +1,48 @@
+id: "educating"
+number: "05"
+behavior: "popup"
+
+title: "Educating"
+
+content:
+  intro_markdown: >-
+    Teaching has made me much more aware of the difference between
+    knowing something and being able to make it understandable.
+
+  columns:
+    - id: "steamistic"
+      heading: "STEAMistic"
+      body_markdown: >-
+        At STEAMistic, I help organize and deliver hands-on STEM workshops.
+
+        I really enjoy teaching! Helping young children understand scientific
+        concepts is truly a blessing.
+      image:
+        src: "/images/current/steamistic.png"
+        alt: "Me teaching an educational activity."
+        caption: "Me teaching an educational activity."
+
+    - id: "scholars-academy"
+      heading: "Scholars Academy"
+      body_markdown: >-
+        Scholars Academy gives me another opportunity to work directly
+        with students. I've just joined, and I'm excited to see where this program
+        will take me.
+
+        Scholars Academy will connect me with **service projects**, allowing me
+        to continue pursuing my passion for teaching.
+      image:
+        src: "/images/current/scholars.png"
+        alt: ""
+        caption: ""
+
+    - id: "other-education"
+      heading: "Other"
+      body_markdown: >-
+        I've also volunteered to teach math and computer science at the library
+        and taught guitar professionally.
+
+      image:
+        src: "/images/current/musicworks.png"
+        alt: ""
+        caption: "Where I used to teach!"

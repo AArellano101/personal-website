@@ -1,0 +1,68 @@
+id: "precisionfit"
+title: "PrecisionFit"
+status: "Personal project"
+featured: true
+
+summary_markdown: >-
+  A computer-vision fitness assistant designed to recognize exercise
+  movement and score its accuracy.
+
+description_markdown: |-
+  PrecisionFit was my attempt to build a personal AI trainer using
+  computer vision.
+
+  Using **OpenCV** and **MediaPipe**, PrecisionFit interprets
+  body landmarks from video, identifies exercise movements, and translates
+  the resulting measurements into a score using a **machine learning** model I
+  trained.
+
+  The interesting challenge wasn't simply detecting a pose, but figuring out
+  how a pose could be used in a machine learning model.
+
+  The project introduced me to machine learning, specifically **how to train a model**.
+  I learned about **multilayer perceptrons**, **loss functions**, **gradient descent**, and proper
+  ML practices. Of course, it isn't perfect, but it has set me up to stay curious about
+  ML.
+
+personal_explanation_markdown: >-
+  I was interested in how machine learning models for computer vision worked. How does an ML model
+  see something?
+
+contributions:
+  - "Trained the computer-vision machine-learning model."
+  - "Worked with pose landmarks and motion measurements."
+  - "Documented the development process in a technical article."
+  - "Created the dataset using personal runs."
+
+technologies:
+  - "TensorFlow"
+  - "OpenCV / MediaPipe"
+  - "Python"
+  - "Django"
+  - "Technical writing"
+  - "Keras"
+
+keywords:
+  - "Computer vision"
+  - "Machine learning"
+  - "Model training"
+  - "Responsible AI communication"
+
+links:
+  - label: "Read the article"
+    href: "https://medium.com/@aaronjobarellano/coding-a-personal-ai-trainer-8e4a752dad57"
+    type: "article"
+  - label: "GitHub repo"
+    href: "https://github.com/AArellano101/PrecisionFit"
+    type: "source"
+
+images:
+  cover:
+    src: "/images/projects/precision-fit-cover.png"
+    alt: "Collage of push-up images from the PrecisionFit dataset."
+    caption: "A sample of the dataset."
+
+  gallery:
+    - src: "/images/projects/precision-fit-demo.png"
+      alt: "PrecisionFit interface analyzing a push-up with pose landmarks."
+      caption: "A live demo; read the article for more!"
