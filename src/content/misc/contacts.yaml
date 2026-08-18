@@ -28,3 +28,9 @@ contacts:
     value: "PDF to be added"
     aria_label: "Aaron Arellano's résumé will be added soon"
     available: false
+  
+  - id: "scholars"
+    label: "Scholars Academy Profile"
+    value: "Scholars Academy Profile"
+    href: "https://www.ucalgary.ca/student-services/scholars-academy/scholar-profiles/aaron_a"
+    aria_label: "View Aaron Arellano's Scholars Academy profile"
