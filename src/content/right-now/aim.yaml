@@ -1,0 +1,71 @@
+id: "aim"
+number: "04"
+behavior: "popup"
+
+title: "Engineering robotics software"
+
+external_link:
+  label: "Autonomous Intelligent Machines (AIM)"
+  href: "https://aim-ucalgary.com/"
+  aria_label: "Visit the AIM website"
+
+content:
+  lead_markdown: >-
+    **Robots** stick out to me because they require competencies in areas that I'm interested in, including
+    controls, firmware, hardware, and machine learning.
+
+  body_markdown: |-
+    As the Software Team Lead for the University of Calgary's Autonomous Intelligent Machines (AIM), I manage the 
+    different components defining the robot's software systems, including the firmware, control systems, and machine learning. 
+
+    We are still early in the development, so check back later!
+
+  
+  topics:
+    - title: "Robot software architecture"
+      description: >-
+        Defining the full software pipeline from perception and world modelling
+        through strategy, planning, control, and robot firmware.
+
+    - title: "State estimation and world modelling"
+      description: >-
+        Fusing SSL-Vision and onboard feedback into a consistent representation
+        of robot, ball, and field state for downstream decision-making.
+
+    - title: "Strategy, planning, and machine learning"
+      description: >-
+        Designing team coordination, robot behaviours, path planning, and exploring
+        supervised learning, imitation learning, and reinforcement learning.
+
+    - title: "Robot interface and embedded control"
+      description: >-
+        Defining commands, telemetry, communication protocols, and responsibility
+        boundaries between centralized software and onboard firmware.
+
+
+  keywords:
+    - "Robotics software architecture"
+    - "Python"
+    - "C++"
+    - "Embedded C/C++"
+    - "STM32"
+    - "Control systems"
+    - "State estimation"
+    - "Kalman filtering"
+    - "Sensor fusion"
+    - "World modelling"
+    - "Motion planning"
+    - "Path planning"
+    - "Real-time systems"
+    - "UDP networking"
+    - "Protocol Buffers"
+    - "Machine learning"
+    - "PyTorch"
+    - "Reinforcement learning"
+    - "Imitation learning"
+    - "Multi-agent systems"
+    - "Simulation"
+    - "Systems integration"
+    - "Technical leadership"
+
+

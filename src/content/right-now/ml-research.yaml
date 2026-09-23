@@ -11,41 +11,72 @@ external_link:
 
 content:
   lead_markdown: >-
-    In Dr. Samira Kahou's Machine Intelligence and Reasoning Lab, I am studying how groups of
-    language-model agents **reason, plan, negotiate, and, on occasion, fail**. I'm interested in how behaviours such as deception, sycophancy, information leakage, or coordination failures become visible
-    in their messages. Exploring how an LLM's internal mechanisms can be used to explain **why these behaviours occur** also fascinates me.
+    In Dr. Samira Kahou's Machine Intelligence and Reasoning Lab, I study
+    **multi-agent systems built from large language models**. My research asks
+    how we can understand these systems across three complementary levels:
+    **what agents do, what they explicitly maintain, and what their underlying
+    models represent internally**. I'm interested in AI safety,
+    explainability, and their emergent behaviours.
 
   body_markdown: |-
-    My main project is twofold. First, I'm building a configurable
-    simulator where LLM-based agents interact while maintaining private
-    **beliefs, objectives, plans, memory, and roles**.
+    My main project is **MOSAIC: Multi-agent Observability for States, Actions,
+    Internals, and Comparison**, an experimental framework for configurable,
+    multi-turn LLM-based simulations.
 
-    The second contribution is explainability. I'm interested in looking inside
-    the models instead of judging them only by their final responses, using
-    **linear probes, sparse autoencoders, Jacobian lenses, and other white-box 
-    approaches**.
+    MOSAIC is built around a three-level analytical taxonomy:
+    **observable behavior, explicit evolving agent state, and model-internal
+    representations**. Observable behavior includes agent messages, actions,
+    decisions, outcomes, and interaction trajectories. The explicit agent state
+    consists of **beliefs, objectives, and plans** maintained between
+    interactions, while model-internal representations include signals such as
+    **activations, attention patterns, and probe outputs**.
 
-    Side projects include writing an online textbook and developing a documentation schema for
-    multi-agent systems.
+    A major part of my work involves making these levels observable together.
+    MOSAIC allows researchers to examine how changes in **beliefs, objectives,
+    and plans propagate onto communication and actions**, while white-box
+    measurements provide independent evidence about what may be represented
+    internally by the underlying language model.
 
-    I can't reveal too much because it's all unpublished work (for now)!
+    The framework also supports controlled manipulation of **seed beliefs,
+    plans, objectives, scenario definitions, and private information**. This
+    allows matched simulations to be compared across conditions and enables
+    safety-relevant phenomena to emerge **without direct behavioral prompting**.
+
+    At the model-internal level, I work with **attention visualization,
+    linear probes, and sparse autoencoders**. These measurements are aligned with the same agent, turn,
+    response, and evolving state, making it possible to examine **agreement,
+    disagreement, and different temporal dynamics** across the three levels of
+    analysis.
+
+    Beyond MOSAIC, I'm **writing a chapter on explainable machine learning**,
+    have **co-authored a paper on AI safety**, and am currently **contributing
+    to a Delphi study on safe agentic AI**. These projects complement my main
+    research by extending my work across explainability, AI safety, and the
+    broader study of safe autonomous and multi-agent systems.
+
+    I can't reveal too much because much of this work is still unpublished!
+
 
   keywords:
     - "LLMs"
-    - "Agents"
+    - "Transformers"
     - "Multi-agent systems"
-    - "Machine learning"
+    - "AI safety"
     - "Explainability"
+    - "Agentic AI"
+    - "Machine learning"
     - "PyTorch"
 
   images:
     - src: "/images/current/pipeline-mals.png"
       alt: >-
-        High-level overview of how Aaron's main project works.
+        High-level overview of the MOSAIC multi-agent simulation and analysis framework.
       caption: >-
-        A high-level overview of how my main project works.
+        MOSAIC aligns observable behaviour, evolving agent state, and
+        model-internal representations across multi-agent interactions.
 
     - src: "/images/current/comp-mals.png"
       alt: >-
-        Comparison of Aaron's main project with related work.
-      caption: A comparison of my main project and other contemporary works.
+        Comparison of MOSAIC with related multi-agent simulation and analysis frameworks.
+      caption: >-
+        A comparison of MOSAIC's analytical coverage with related multi-agent frameworks.
